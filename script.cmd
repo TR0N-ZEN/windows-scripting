@@ -1,7 +1,6 @@
-echo("hello world")
 C:
-mkdir sqlitetest
+mkdir "C:\sqlite3"
 G:
-copy sqlite3 "C:\sqlitetest"
-setx sqlite3 C:\sqlitetest\sqlite\ /m
+copy sqlite3 "C:\sqlite3\"
+setx sqlite3 C:\sqlite3\ /m
 pause
