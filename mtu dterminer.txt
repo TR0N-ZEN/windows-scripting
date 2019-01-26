@@ -1,0 +1,3 @@
+netsh interface ipv4 show interfaces (returns several data, one is idx standing for index? whatever who cares)
+ping www.dslreports.com -f -l 1472 (enter several values to try with and of it returns success for package send safe and write number in %mtu%)
+netsh interface ipv4 set subinterface %idx% mtu=%mtu% store=persistent
