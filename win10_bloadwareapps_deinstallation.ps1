@@ -1,3 +1,4 @@
+Set-ExecutionPolicy Unrestricted
 Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage –online
 Get-AppxPackage -AllUsers *advert* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *bing* | Remove-AppxPackage
@@ -15,12 +16,14 @@ Get-AppxPackage *solitairecollection* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *people* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *zune* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *sticky* | Remove-AppxPackage
-Get-AppxPackage *getstarted* | Remove-AppxPackage
-Get-AppxPackage *skypeapp* | Remove-AppxPackage
-Get-AppxPackage *officehub* | Remove-AppxPackage
-Get-AppxPackage *windowsmaps* | Remove-AppxPackage
-Get-AppxPackage *zunevideo* | Remove-AppxPackage
-Get-AppxPackage *bingfinance* | Remove-AppxPackage
-Get-AppxPackage *bingnews* | Remove-AppxPackage
-Get-AppxPackage *windowsphone* | Remove-AppxPackage
-Get-AppxPackage *bingsports* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *getstarted* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *skypeapp* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *officehub* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *windowsmaps* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *zunevideo* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *bingfinance* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *bingnews* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *windowsphone* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *bingsports* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *xing* | Remove-AppxPackage
+Set-ExecutionPolicy Restricted
