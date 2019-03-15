@@ -1,4 +1,3 @@
-Get-AppxPackage -AllUsers | Remove-AppxPackage
 Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage –online
 Get-AppxPackage -AllUsers *advert* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *bing* | Remove-AppxPackage
@@ -12,3 +11,7 @@ Get-AppxPackage -AllUsers *xboxspeech* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *xbox.TCUI* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *yourphone* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *identityprovider* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *solitaire* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *people* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *zune* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *sticky* | Remove-AppxPackage
