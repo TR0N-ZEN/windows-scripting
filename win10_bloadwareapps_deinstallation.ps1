@@ -1,26 +1,7 @@
-Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage –online
-Get-AppxPackage -AllUsers *advert* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *bing* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *cortana* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *office* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *oneconnect* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *xboxapp* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *xboxgameoverlay* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *xboxgamingoverlay* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *xboxspeech* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *xbox.TCUI* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *yourphone* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *identityprovider* | Remove-AppxPackage
-Get-AppxPackage *solitairecollection* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *people* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *zune* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *sticky* | Remove-AppxPackage
-Get-AppxPackage *getstarted* | Remove-AppxPackage
-Get-AppxPackage *skypeapp* | Remove-AppxPackage
-Get-AppxPackage *officehub* | Remove-AppxPackage
-Get-AppxPackage *windowsmaps* | Remove-AppxPackage
-Get-AppxPackage *zunevideo* | Remove-AppxPackage
-Get-AppxPackage *bingfinance* | Remove-AppxPackage
-Get-AppxPackage *bingnews* | Remove-AppxPackage
-Get-AppxPackage *windowsphone* | Remove-AppxPackage
-Get-AppxPackage *bingsports* | Remove-AppxPackage
+<# Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage -online #>
+<# $array = {people, solitairecollection, identityprovider, yourphone, advert, bing, cortana, office, oneconnect, xboxapp, xboxgameoverlay, xboxgamingoverlay, xboxspeech, xbox.TCUI} #>
+<# $exceptions = @('*store*', '*netflix*'. '*whatsapp*', '*spotify*', '*twitter*')
+Get-AppXPackage -allusers | where-object {$_.name -notlike $exceptions} | Remove-AppxPackage#>
+Set-ExecutionPolicy unrestricted | a
+Get-AppXPackage -allusers | where-object {$_.name -notlike '*store*' -and '*netflix*' -and '*whatsapp*' -and '*spotify*' -and '*twitter*'} | Remove-AppxPackage
+Set-ExecutionPolicy restricted | a
