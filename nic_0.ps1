@@ -1,3 +1,4 @@
+Set-ExecutionPolicy Unrestricted
 <# Get-NetAdapterAdvancedProperty * | ft DisplayName, DisplayValue, ValidDisplayValues #>
 $names = Get-NetAdapter * | Format_Table Name <# Netadapternames #>
 $settings = Get-Netadapter -Name $name -DisplayName * <# Settings #>
@@ -11,3 +12,4 @@ foreach ($name in $names) {
 }
 
 Restart-NetAdapter -Name $name
+Set-ExecutionPolicy Restricted

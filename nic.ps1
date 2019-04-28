@@ -1,4 +1,5 @@
-﻿Set-NetAdapterAdvancedProperty * -DisplayName "Flow Control"-DisplayValue "Rx & Tx Enabled" -NoRestart
+﻿Set-ExecutionPolicy Unrestricted
+Set-NetAdapterAdvancedProperty * -DisplayName "Flow Control"-DisplayValue "Rx & Tx Enabled" -NoRestart
 Set-NetAdapaterAdvancedProperty * -DisplayName "Interrupt Moderation" -DisplayValue "Disabled" -NoRestart
 Set-NetAdapaterAdvancedProperty * -DisplayName "IPv4 Checksum Offload V2 (IPv4)" -DisplayValue "Rx & Tx Enabled" -NoRestart
 Set-NetAdapaterAdvancedProperty * -DisplayName "IPsec Offload" -DisplayValue "Auth Header & ESP Enabled" -NoRestart
@@ -25,3 +26,4 @@ Set-NetAdapaterAdvancedProperty * -DisplayName "Gigabit Master Slave Mode" -Disp
 Set-NetAdapaterAdvancedProperty * -DisplayName "Locally Administered Address" -DisplayValue "" -NoRestart
 Set-NetAdapaterAdvancedProperty * -DisplayName "Wait for Link" -DisplayValue "Auto Detect" -NoRestart
 Restart-NetAdapter (NIC Name)
+Set-ExecutionPolicy Restricted

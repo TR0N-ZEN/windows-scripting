@@ -12,7 +12,7 @@ Get-AppxPackage -AllUsers *xboxspeech* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *xbox.TCUI* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *yourphone* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *identityprovider* | Remove-AppxPackage
-Get-AppxPackage *solitairecollection* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *solitairecollection* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *people* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *zune* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *sticky* | Remove-AppxPackage
