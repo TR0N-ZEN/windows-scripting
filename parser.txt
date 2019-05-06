@@ -1,1 +1,0 @@
-split each line and check for each line if it contains string "connected", if so take the idx (would be the first signs of the line)
