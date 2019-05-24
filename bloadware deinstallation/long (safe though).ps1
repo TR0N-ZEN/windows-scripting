@@ -1,4 +1,4 @@
-Set-ExecutionPolicy Unrestricted | a
+<# Set-ExecutionPolicy Unrestricted | a #>
 Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage -online
 Get-AppxPackage -AllUsers *advert* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *bing* | Remove-AppxPackage
@@ -29,12 +29,5 @@ Get-AppxPackage -AllUsers *xing* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *fitbit* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *cooking* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *candy* | Remove-AppxPackage
-Set-ExecutionPolicy Restricted | a
+<# Set-ExecutionPolicy Restricted | a #>
 
-<# Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage -online #>
-<# $array = {people, solitairecollection, identityprovider, yourphone, advert, bing, cortana, office, oneconnect, xboxapp, xboxgameoverlay, xboxgamingoverlay, xboxspeech, xbox.TCUI} #>
-<# $exceptions = @('*store*', '*netflix*'. '*whatsapp*', '*spotify*', '*twitter*')
-Get-AppXPackage -allusers | where-object {$_.name -notlike $exceptions} | Remove-AppxPackage#>
-Set-ExecutionPolicy Unrestricted | a
-Get-AppXPackage -allusers | where-object {$_.name -notlike '*store*' -and '*netflix*' -and '*whatsapp*' -and '*spotify*' -and '*twitter*' -and '*gmx*' -and '*word*'} | Remove-AppxPackage
-Set-ExecutionPolicy Restricted | a
