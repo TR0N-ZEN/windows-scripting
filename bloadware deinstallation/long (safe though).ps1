@@ -1,4 +1,3 @@
-<# Set-ExecutionPolicy Unrestricted | a #>
 Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage -online
 Get-AppxPackage -AllUsers *advert* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *bing* | Remove-AppxPackage
@@ -29,5 +28,3 @@ Get-AppxPackage -AllUsers *xing* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *fitbit* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *cooking* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *candy* | Remove-AppxPackage
-<# Set-ExecutionPolicy Restricted | a #>
-
