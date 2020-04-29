@@ -5,6 +5,6 @@
     "\\copying",
     "\\network configuration"
   ],
-  "SelectedNode": "\\network configuration\\network interfaces.cmd",
+  "SelectedNode": "\\network configuration\\Set-Mtu.ps1",
   "PreviewInSolutionExplorer": false
 }
