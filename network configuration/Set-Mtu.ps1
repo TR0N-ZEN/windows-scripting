@@ -10,9 +10,9 @@ foreach ($networkadapter in $networkadapters) {
 }
 
 foreach ($ethernetadapter in $ethernetadapters) {
-    Write-Output "---------------------"
+    Write-Output "-----------------------"
     Write-Output "Ethernetadapter IDX: $ethernetadapter"
-    Write-Output "---------------------"
+    Write-Output "-----------------------"
     do {
         $transmissionStatusping = ping www.dslreports.com -f -l $number
         $loss = $transmissionStatusping[9].Substring(5, $transmissionStatusping[9].IndexOf("V") - 6)
