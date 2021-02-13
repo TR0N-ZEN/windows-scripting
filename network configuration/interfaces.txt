@@ -1,0 +1,10 @@
+
+Idx     Met         MTU          State                Name
+---  ----------  ----------  ------------  ---------------------------
+  1          75  4294967295  connected     Loopback Pseudo-Interface 1
+  7          55        1500  connected     Wi-Fi
+ 10           5        1500  disconnected  Ethernet
+ 18          25        1500  disconnected  Local Area Connection* 1
+ 12          25        1500  disconnected  Local Area Connection* 2
+ 16          25        1500  disconnected  Ethernet 2
+
