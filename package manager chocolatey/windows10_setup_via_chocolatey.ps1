@@ -4,6 +4,7 @@ choco install vlc
 choco install spotify
 choco install vscode
 choco install git
+choco install mingw
 choco install jdk11
 choco install nodejs
 choco install python3 //unknown
