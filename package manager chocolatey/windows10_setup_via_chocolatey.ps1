@@ -12,3 +12,4 @@ choco install filezilla
 choco install openvpn //failling
 choco install obs-studio
 choco install xournalplusplus
+choco install megasync
