@@ -1,1 +1,1 @@
-Get-AppXPackage -allusers | where-object {$_.name -notlike '*store*' -and '*netflix*' -and '*whatsapp*' -and '*spotify*' -and '*twitter*' -and '*gmx*' -and '*word*'} | Remove-AppxPackage
+Get-AppXPackage -allusers | where-object {$_.name -notlike '*store*' -and '*netflix*' -and '*whatsapp*' -and '*spotify*' -and '*foto*' -and '*word*'} | Remove-AppxPackage
