@@ -13,3 +13,4 @@ choco install xournalplusplus
 choco install megasync
 choco install firefox //failling
 choco install thunderbird //failling
+choco install discord
