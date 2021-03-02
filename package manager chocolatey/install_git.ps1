@@ -1,3 +1,3 @@
 choco install git.install
-git config --user.name = "Theo Reichert"
-git congfig --user.email = "theo.reichert7@gmail.com"
+git config --global user.name = "Theo Reichert"
+git congfig --global user.email = "theo.reichert7@gmail.com"
