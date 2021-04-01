@@ -6,7 +6,7 @@ $transmissionFailed = $TRUE
 $networkadapters = Get-NetAdapter
 $ethernetadapters_IDX = @()
 
-foreach ($networkadapter in $networkadapters.Name) {
+foreach ($networkadapter in $networkadapters.Name){
 ##foreach ($networkadapter in $networkadapters) {
     if ($networkadapter.Contains("Ethernet")) {
         ##$ethernetadapters_IDX += $networkadapter.Substring(1,2).Trim()
@@ -28,7 +28,7 @@ foreach ($ethernetadapter_IDX in $ethernetadapters_IDX) {
             netsh interface ipv4 show subinterface $ethernetadapter_IDX
             $transmissionFailed = $FALSE
         }
-        $number--
+        $number++
     } while($transmissionFailed)
-    $number++
+    $number = 1235;
 }
