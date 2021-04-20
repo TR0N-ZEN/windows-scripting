@@ -1,34 +1,47 @@
-﻿$networkadapters = Get-NetAdapter
-foreach ($Networkadapter in $Networkadapters) {
-	if ($Networkadapter.Name == "Ethernet") {
-		Set-NetAdapterAdvancedProperty $Networkadaptern.Name -DisplayName "Flow Control"-DisplayValue "Rx & Tx Enabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Interrupt Moderation" -DisplayValue "Disabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "IPv4 Checksum Offload V2 (IPv4)" -DisplayValue "Rx & Tx Enabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "IPsec Offload" -DisplayValue "Auth Header & ESP Enabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Jumbo Packet" -DisplayValue "Disabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Large Send Offload V2 (IPv4)" -DisplayValue "Enabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Large Send Offload V2 (IPv6)" -DisplayValue "Enabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Max number of RSS Processors" -DisplayValue "8" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Preferred NUMA node" -DisplayValue "System Default" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Maximum Number of RSS Queues" -DisplayValue "2 Queues" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Priority & VLAN" -DisplayValue "Priority & VLAN Enabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Receive Buffers" -DisplayValue "2048" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Receive Side Scaling" -DisplayValue "Disabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Speed & Duplex" -DisplayValue "Auto Negotiation" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "SR-IOV" -DisplayValue "Disabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "TCP Checksum Offload (IPv4)" -DisplayValue "Rx & Tx Enabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "TCP Checksum Offload (IPv6)" -DisplayValue "Rx & Tx Enabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Transmit Buffers" -DisplayValue "2048" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "UDP Checksum Offload (IPv4)" -DisplayValue "Rx & Tx Enabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "UDP Checksum Offload (IPv6)" -DisplayValue "Rx & Tx Enabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Virtual Machine Queues" -DisplayValue "Disabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Interrupt Moderation Rate" -DisplayValue "Adaptive" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Log Link State Event" -DisplayValue "Enabled" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Gigabit Master Slave Mode" -DisplayValue "Auto Detect" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Locally Administered Address" -DisplayValue "" -NoRestart
-		Set-NetAdapaterAdvancedProperty $Networkadaptern.Name -DisplayName "Wait for Link" -DisplayValue "Auto Detect" -NoRestart
-		Restart-NetAdapter ($Networkadapter.Name)
-	}
+# Set-ExecutionPolicy Unrestricted # Enter that line manualll if execution of scripts isn't permitted
+
+$values = @{
+  "Energy Efficient Ethernet"="Off";
+  "Enable PME"="Disabled";
+  "Flow Control"="Disabled";
+  "Interrupt Moderation"="Disabled";
+  "Interrupt Moderation Rate"="Off";
+  "IPv4 Checksum Offload"="Disabled";
+  "Jumbo Packet"="Disabled";
+  "Large Send Offload V2 (IPv4)"="Disabled";
+  "Large Send Offload V2 (IPv6)"="Disabled";
+  "Maximum Number of RSS Queues"="2 Queues";
+  "ARP Offload"="Disabled";
+  "NS Offload"="Disabled";
+  "Packet Priority & VLAN"="Packet Priority & VLAN Disabled";
+  "PTP Hardware Timestamp"="Enabled";
+  "Receive Buffers"="2048";
+  "Receive Side Scaling"="Enabled";
+  "Software Timestamp"="Disabled";
+  "Speed & Duplex"="Auto Negotiation";
+  "TCP Checksum Offload (IPv4)"="Rx & Tx Enabled";
+  "TCP Checksum Offload (IPv6)"="Rx & Tx Enabled";
+  "Transmit Buffers"="2048";
+  "UDP Checksum Offload (IPv4)"="Rx & Tx Enabled";
+  "UDP Checksum Offload (IPv6)"="Rx & Tx Enabled";
+  "Wake on Magic Packet"="Disabled";
+  "Wake on Pattern Match"="Disabled";
+  "Wake on Link Settings"="Disabled";
 }
 
-Set-ExecutionPolicy Restricted
+$name = "Ethernet";
+<# foreach ($name in $names) { #>
+  Disable-NetAdapterPowerManagement -Name $name -NoRestart
+	Disable-NetAdapterQos -Name $name -NoRestart
+  $settings = (Get-NetAdapterAdvancedProperty -Name $name).DisplayName;
+  foreach ($setting in $settings) {
+    Set-NetAdapterAdvancedProperty -Name $name -DisplayName $setting -DisplayValue $values[$setting] -NoRestart
+    Get-NetAdapterAdvancedProperty -Name $name -DisplayName $setting
+    # Write-Host $setting; #$values[$setting];
+  }
+  
+<#}#>
+
+
+Restart-NetAdapter -Name $name
+# Set-ExecutionPolicy Restricted
