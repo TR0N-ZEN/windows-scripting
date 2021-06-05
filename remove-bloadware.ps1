@@ -1,0 +1,1 @@
+Get-AppXPackage -allusers | where-object {$_.Publisher -NotMatch "Microsoft" -and $_.Name -NotMatch "Okular"} #-and where-object {$_.Publisher -NotMatch "Whatsapp"} #| Remove-AppxPackage

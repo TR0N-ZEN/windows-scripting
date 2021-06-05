@@ -19,7 +19,7 @@ foreach ($ethernetadapter_IDX in $ethernetadapters_IDX) {
     Write-Output "Ethernetadapter IDX: $ethernetadapter_IDX"
     Write-Output "-----------------------"
     do {
-        $transmissionStatusping = ping www.dslreports.com -f -l $number
+        $transmissionStatusping = 
         $loss = $transmissionStatusping[9].Substring(5, $transmissionStatusping[9].IndexOf("V") - 6)
         Write-Output "MTU: $number -> $loss Paketverlust"
         if ($loss -eq "0%") {
