@@ -1,3 +1,4 @@
+Set-ExecutionPolicy Unrestricted
 choco install vlc
 choco install spotify
 choco install vscode
@@ -14,3 +15,4 @@ choco install megasync
 choco install firefox //failling
 choco install thunderbird //failling
 choco install discord
+Set-ExecutionPolicy Restricted
