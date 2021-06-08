@@ -1,0 +1,2 @@
+Set-WindowsSearchSetting -EnableWebResultsSetting $false -EnableMeteredWebResultsSetting $false -SearchExperienceSetting NotPersonalized -SafeSearchSetting Off
+Set-Service -Name WSearch -StartupType Disabled -Status Stopped
