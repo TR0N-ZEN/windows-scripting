@@ -19,7 +19,7 @@ Get-AppxPackage -AllUsers *getstarted* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *skypeapp* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *officehub* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *windowsmaps* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *zunevideo* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *zune* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *bingfinance* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *bingnews* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *windowsphone* | Remove-AppxPackage
