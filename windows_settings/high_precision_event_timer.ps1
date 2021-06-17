@@ -1,3 +1,4 @@
-bcdedit /set useplatformclock false
-bcdedit /set disabledynamictick yes
 bcdedit /deletevalue useplatformclock
+bcdedit /set useplatformclock no
+bcdedit /set disabledynamictick yes
+bcdedit /set useplatformtick yes
