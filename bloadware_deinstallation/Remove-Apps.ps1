@@ -12,4 +12,4 @@ filter NameNotIn {
 	if ($b) { $_ }
 }
 $whitelist = 'Okular','Whatsapp', 'Spotify','Word','Excel','PowerPoint','Netflix', 'Canon', 'Synaptic','Debian','Kali';
-Get-AppXPackage -allusers | where-object Publisher -NotMatch 'Microsoft' | NameNotIn $whitelist | select-object Name
+Get-AppXPackage -allusers | where-object Publisher -NotMatch 'Microsoft' | NameNotIn $whitelist | select-object Name | Remove-AppXPackage;
