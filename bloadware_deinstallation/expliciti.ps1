@@ -1,3 +1,6 @@
+Get-AppXPackage -allusers | where-object { ($_.Name -match 'xbox') -or ($_.Name -match 'zune') -or ($_.Name -match 'YourPhone')} | Remove-AppxPackage
+
+
 Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage -online
 Get-AppxPackage -AllUsers *advert* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *bing* | Remove-AppxPackage
