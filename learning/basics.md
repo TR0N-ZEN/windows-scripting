@@ -12,7 +12,7 @@ while __Noun__ &isin; { _Help_, _Service_, _NetAdapter_, _..._ }
 >Get-Date
 >```
 
----
+--- 
 
 If you want to get a list of all commands enter
 ```POWERSHELL
