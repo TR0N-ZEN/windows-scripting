@@ -1,7 +1,5 @@
 winget install GnuPG.Gpg4win
 winget install Git.Git
-# git config --global user.name = "Theo Reichert"
-# git config --global user.email = "theo.reichert7@gmail.com"
 
 winget install Mozilla.Firefox
 winget install BraveSoftware.BraveBrowser
@@ -16,6 +14,7 @@ winget install OpenJS.NodeJS.LTS
 winget install Python.Python.3
 winget install OpenVPNTechnologies.OpenVPN
 winget install TimKosse.FileZilla.Client
+# winget install Win32DiskImager
 
 winget install OBSProject.OBSStudio
 winget install OBSProject.obs-amd-encoder
@@ -24,5 +23,9 @@ winget install VideoLAN.VLC
 winget install Spotify.Spotify
 
 winget install xournalplusplus
+
+winget install Valve.Steam
+winget install Ubisoft.Connect
+winget install EpicGames.EpicGamesLauncher
 
 # winget search "Norton Security Protection"
