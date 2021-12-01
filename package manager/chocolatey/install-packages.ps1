@@ -1,7 +1,5 @@
-Set-ExecutionPolicy Unrestricted
+# Set-ExecutionPolicy Unrestricted
 choco install git
-git config --global user.name = "Theo Reichert"
-git config --global user.email = "theo.reichert7@gmail.com"
 choco install vscode
 choco install mingw
 choco install jdk11
