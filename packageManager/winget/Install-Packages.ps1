@@ -6,6 +6,8 @@ winget install BraveSoftware.BraveBrowser
 winget install Mozilla.Thunderbird
 winget install Mega.MEGASync
 
+winget install Microsoft.VC++2015-2022Redist-x64
+
 winget install Microsoft.VisualStudioCode
 winget install Microsoft.VisualStudio.2019.Community
 winget install BellSoft.LibericaJDK.17
