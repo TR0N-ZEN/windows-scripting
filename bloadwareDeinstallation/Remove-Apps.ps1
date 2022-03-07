@@ -16,3 +16,4 @@ Get-AppXPackage -allusers | where-object Publisher -NotMatch 'Microsoft' | NameN
 
 
 winget uninstall "Microsoft Pay"
+# winget uninstall "Cortana"
