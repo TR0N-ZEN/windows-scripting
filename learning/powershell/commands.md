@@ -1,7 +1,10 @@
-| command | what it does |
-|---------|--------------|
-|Select   |              |
-|         |              |
+| command       | what it does                                                         |
+|---------------|----------------------------------------------------------------------|
+| Get-Clipboard | gets the content of the clipboard, so the thind that you copied last |
+|               |                                                                      |
+|               |                                                                      |
+|               |                                                                      |
+|               |                                                                      |
 
 
 # Verbs

@@ -11,8 +11,8 @@ a `<command>` in Powershell is formed Like
 ```
 Verb-Noun
 ```
-while __Verb__ &isin; { _Set_, _Get_, _Show_, _..._ } and  
-while __Noun__ &isin; { _Help_, _Service_, _NetAdapter_,_Item_, _..._ }  
+while **Verb** &isin; { _Set_, _Get_, _Show_, _..._ } and  
+while **Noun** &isin; { _Help_, _Service_, _NetAdapter_,_Item_, _..._ }  
   
 >```POWERSHELL
 >Get-Service
@@ -28,11 +28,16 @@ If you want to get a list of all commands enter
 Get-Command
 ```
 
----
+Since this command helps with discovery and understanding commands the following may be said:  
+```powershell
+Get-Command -ParameterType <x>
+```
+lists the commands using parameters/accepting arguments whichs datatype is `<x>`.  
 
-If you need help with a command for example with Get-Service enter
-```POWERSHELL
-Get-Help Get-Service
+for more information about `Get-Command` type:
+
+```powershell
+Get-Help Get-Command
 ```
 
 ---
@@ -88,12 +93,18 @@ this can be used in conjunction with filerting functions like:
   Get-Appxpackage | where-object { $_.Name -match 'Zune' } | Remove-AppxPackage
   ```
   commands with the same noun usually take ones output as input for another
+  or you check for commands with a specific parameter type `<x>` with
+  ```powershell
+  Get-Command -ParameterType <x>
+  ```
 
 ---
 
 # datatypes
 
-__arrays__ 
+As far as I discovered every piece of data is an object and thus has members of the types *Property*, *Method*, *Alias-Method*, *Script-Method*.  
+
+**arrays** 
   ```powershell
   $data =- @()
   ```
@@ -102,9 +113,9 @@ __arrays__
   ```
   ```powershell
   $data = @(
-      'Zero'
-      'One'
-      'Two'
+      'Zero',
+      'One',
+      'Two',
       'Three'
   )
   ```
