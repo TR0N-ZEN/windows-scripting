@@ -6,8 +6,8 @@ $Names = 'DisableAllClockGating', 'DisableGfxCGPowerGating', 'DisableCpPowerGati
 
 foreach ($Name in $Names)
 {
-	Set-ItemProperty -Path . -Name $Name -Value 1
-	echo $Name (Get-ItemProperty -Path . -Name $Name).$Name
+  Set-ItemProperty -Path . -Name $Name -Value 1
+  echo $Name (Get-ItemProperty -Path . -Name $Name).$Name
 }
 
 Set-Location $wd

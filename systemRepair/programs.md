@@ -13,4 +13,4 @@
     + msconfig.exe - system conbfiuration - startup settings
     + msinfo32.exe - system summary - information
     + gpedit.msc - group policy
-    + diskpart.exe - 
+    + diskpart.exe - partitioning of drives
