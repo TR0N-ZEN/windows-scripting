@@ -9,6 +9,6 @@ $x = (winget list)
 $i = 0
 foreach ($line in $x)
 {
-	echo "[$i]$line"
-	$i++
+  echo "[$i]$line"
+  $i++
 }
