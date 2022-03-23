@@ -1,1 +1,1 @@
-Set-NetIPInterface -InterfaceALias "Ethernet" -NlMtuBytes 1472
+Set-NetIPInterface -InterfaceALias 'Ethernet' -NlMtuBytes 1472
