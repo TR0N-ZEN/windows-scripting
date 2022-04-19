@@ -1,5 +1,7 @@
 Alles altes Zeug wieder installieren:
+```ps1
 Get-AppxPackage -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+```
 
 Links:
 + https://www.tenforums.com/tutorials/4689-uninstall-apps-windows-10-a.html
