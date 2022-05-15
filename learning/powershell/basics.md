@@ -5,6 +5,99 @@
 
 ---
 
+# datatypes
+
+As far as I discovered every piece of data is an object and thus has members of the types *Property*, *Method*, *Alias-Method*, *Script-Method*.  
+
+## (primitive) values
+```powershell
+New-Variable -Name "zipcode" -Value 98033
+New-Variable -Name Max -Value 256 -Option ReadOnly
+New-Variable -Name max -Value 1024 -Force
+New-Variable -Name 'TestVariable' -Value 'Test Value' -Option AllScope,Constant
+New-Variable -Name counter -Visibility Private
+Get-Variable c* # the variable counter wont be listed
+Get-Counter
+```
+
+## objects
+## arrays 
+  ```powershell
+  $data =- @()
+  ```
+  ```powershell
+  $data = @('Zero','One','Two','Three')
+  ```
+  ```powershell
+  $data = @(
+      'Zero',
+      'One',
+      'Two',
+      'Three'
+  )
+  ```
+  <details>
+  the array object has predefined methods like `count`
+  ```powershell
+  PS> $data.count
+  4
+  ```
+  
+  ```powershell
+  PS> $data[1]
+  One
+  PS> $data[-1]
+  Three
+  PS> $data[1..3]
+  One
+  Two
+  Three
+  PS> $data[3..1]
+  Three
+  Two
+  One
+  PS> $data[3,0,3]
+  Three
+  Zero
+  Three
+  ```
+  
+  ```powershell
+  PS> $data.GetUpperBound(0)
+  3
+  PS> $data[ $data.GetUpperBound(0) ]
+  Three
+  ###############################
+  # if elements of an array are objects
+  PS> $data | ForEach-Object {$_.LastName}
+  Marquette
+  Doe
+  Mustermann
+  PS> $data | Select-Object -ExpandProperty LastName
+  Marquette
+  Doe
+  Mustermann
+  PS> $data.LastName
+  Marquette
+  Doe
+  Mustermann
+  #########
+  PS> $data | Where-Object {$_.FirstName -eq 'Kevin'}
+  FirstName LastName
+  -----     ----
+  Kevin     Marquette
+
+  $data | Where FirstName -eq Kevin
+  
+  $data.Where({$_.FirstName -eq 'Kevin'})
+  ```
+  
+  </details>
+
+  more @https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-arrays?view=powershell-7.2
+
+---
+
 # commands
 
 a `<command>` in Powershell is formed Like
@@ -23,29 +116,25 @@ while **Noun** &isin; { _Help_, _Service_, _NetAdapter_,_Item_, _..._ }
 
 --- 
 
-If you want to get a list of all commands enter
+
 ```POWERSHELL
-Get-Command
-```
+Get-Command # If you want to get a list of all commands enter
+# Since this command helps with discovery and understanding commands the following may be said.
 
-Since this command helps with discovery and understanding commands the following may be said:  
-```powershell
+# for more information about `Get-Command` type:
+Get-Help Get-Command 
+
+# lists the commands using parameters/accepting arguments whichs datatype is `<x>`.  
 Get-Command -ParameterType <x>
-```
-lists the commands using parameters/accepting arguments whichs datatype is `<x>`.  
 
-for more information about `Get-Command` type:
-
-```powershell
-Get-Help Get-Command
 ```
 
 ---
 
 All commands with Verb _Get_ return data of some type, possible types are a(n)
-+ value like from `$(Get-Date).ToString()`
-+ object like from `Get-Date`
-+ array of arbitrary objects like from `Get-Service`
++ **value** like from `$(Get-Date).ToString()`
++ **object** like from `Get-Date`
++ **array** of arbitrary objects like from `Get-Service`
 + ...
 
 ---
@@ -54,10 +143,11 @@ All commands with Verb _Get_ return data of some type, possible types are a(n)
 
 the pipe operator passes output of cmd-let1 to input of cmd-let2, cmd-let1 and cmd-let2 need to support the usage of the pipe operator
 ```
-<command> | <command>
+<cmd-let1> | <cmd-let2>
 ```
+<details>
 
-this can be used in conjunction with filerting functions like:
+this can be used in conjunction with filtering functions like:
 + `Get-Member`
   ```powershell
   Get-Service | Get-Member
@@ -97,79 +187,7 @@ this can be used in conjunction with filerting functions like:
   ```powershell
   Get-Command -ParameterType <x>
   ```
-
----
-
-# datatypes
-
-As far as I discovered every piece of data is an object and thus has members of the types *Property*, *Method*, *Alias-Method*, *Script-Method*.  
-
-**arrays** 
-  ```powershell
-  $data =- @()
-  ```
-  ```powershell
-  $data = @('Zero','One','Two','Three')
-  ```
-  ```powershell
-  $data = @(
-      'Zero',
-      'One',
-      'Two',
-      'Three'
-  )
-  ```
-  the array object has predefined methods like `count`
-  ```powershell
-  PS> $data.count
-  4
-  ```
-  
-  ```powershell
-  PS> $data[1]
-  One
-  PS> $data[-1]
-  Three
-  PS> $data[1..3]
-  One
-  Two
-  Three
-  PS> $data[3..1]
-  Three
-  Two
-  One
-  PS> $data[3,0,3]
-  Three
-  Zero
-  Three
-  ```
-  
-  ```powershell
-  PS> $data.GetUpperBound(0)
-  3
-  PS> $data[ $data.GetUpperBound(0) ]
-  Three
-  ###############################
-  PS> $data | ForEach-Object {$_.LastName}
-  Marquette
-  Doe
-  PS> $data | Select-Object -ExpandProperty LastName
-  Marquette
-  Doe
-  PS> $data.LastName
-  Marquette
-  Doe
-  ###############################
-  PS> $data | Where-Object {$_.FirstName -eq 'Kevin'}
-  FirstName LastName
-  -----     ----
-  Kevin     Marquette
-
-  $data | Where FirstName -eq Kevin
-  
-  $data.Where({$_.FirstName -eq 'Kevin'})
-  ```
-  more @https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-arrays?view=powershell-7.2
+</details>
 
 ---
 

@@ -38,20 +38,20 @@ $values = @{
   'Wake on Pattern Match'='Disabled'
 }
 
-$name = 'Ethernet';
-<# foreach ($name in $names) { #>
-  Disable-NetAdapterPowerManagement -Name $name -NoRestart
-  # Disable-NetAdapterQos -Name $name -NoRestart
-  $settings = (Get-NetAdapterAdvancedProperty -Name $name).DisplayName;
+$adapter = 'Ethernet';
+<# foreach ($adapter in $adapters) { #>
+  Disable-NetAdapterPowerManagement -Name $adapter -NoRestart
+  # Disable-NetAdapterQos -Name $adapter -NoRestart
+  $settings = (Get-NetAdapterAdvancedProperty -Name $adapter).DisplayName;
   foreach ($setting in $settings)
   {
     Write-Host $setting; #$values[$setting];
-    Set-NetAdapterAdvancedProperty -Name $name -DisplayName $setting -DisplayValue $values[$setting] -NoRestart
+    Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName $setting -DisplayValue $values[$setting] -NoRestart
   }
-  Restart-NetAdapter -Name $name
+  Restart-NetAdapter -Name $adapter
   foreach ($setting in $settings)
   {
-    Get-NetAdapterAdvancedProperty -Name $name -DisplayName $setting
+    Get-NetAdapterAdvancedProperty -Name $adapter -DisplayName $setting
     # Write-Host $setting; #$values[$setting];
   }
 <#}#>
