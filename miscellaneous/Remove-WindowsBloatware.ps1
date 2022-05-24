@@ -30,4 +30,27 @@ filter NameNotIn {
 
 ##################################################################################################################################
 
-winget uninstall "Microsoft Pay"
+$winget_list = @(
+  '3D Viewer'
+  'Cortana', 
+  'Feedback Hub',
+  'Groove Music',
+  'Microsoft Pay',
+  'Microsoft People',
+  'Microsoft Solitaire Collection',
+  'Mixed Reality Portal',
+  'Movies & TV',
+  'MSN Weather',
+  'OneNote for Windows 10',
+  'Paint 3D',
+  'Phone Link',
+  'Skype',
+  'Windows Alarms & Clock'
+  'Windows Camera,'
+  'Windows Maps'
+)
+
+foreach ($item in $winget_list)
+{
+  winget uninstall $item
+}

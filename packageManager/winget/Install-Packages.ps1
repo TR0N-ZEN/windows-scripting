@@ -14,6 +14,9 @@ winget install "Mega.MEGASync"
 #winget install Spotify.Spotify
 winget install 9NCBCSZSJRSB # spotify from msstore
 
+winget install "GoLang.Go"
+
+
 #winget install "OBSProject.OBSStudio"
 #winget install "OBSProject.obs-amd-encoder"
 # winget install "Discord.Discord"
