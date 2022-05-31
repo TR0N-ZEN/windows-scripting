@@ -3,7 +3,7 @@
 | Get-Clipboard    | gets the content of the clipboard, so the thind that you copied last |
 | Set-Clipboard    |                                                                      |
 | Get-Date         |                                                                      |
-| Get-COmputerInfo |                                                                      |
+| Get-ComputerInfo |                                                                      |
 |                  |                                                                      |
 
 
