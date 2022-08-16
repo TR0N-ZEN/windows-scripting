@@ -1,9 +1,6 @@
 
-
-Start-Service -Name WinRM
-Start-DscConfiguration -Path .\GamingMinimal\ -wait -verbose
-Start-DscConfiguration -Path .\GamingMinimal\ -wait -verbose -Force
-#Start-DscConfiguration -Path .\MyDscConfiguration\ -wait -verbose
-#Start-DscConfiguration -Path .\MyDscConfiguration\ -wait -verbose -Force
-Stop-Service -Name WinRM
-Set-ExecutionPolicy Restricted
+Import-Module -Name PsDesiredStateConfiguration
+Start-DscConfiguration -Path .\GamingMinimal\ -wait -verbose -force
+#Start-DscConfiguration -Path .\MyDscConfiguration\ -wait -verbose -force
+Set-Service -Name WinRM -Status Stopped
+Set-Service -Name WinRM -StartupType Disabled

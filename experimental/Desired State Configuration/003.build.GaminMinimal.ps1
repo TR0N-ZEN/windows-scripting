@@ -16,7 +16,7 @@
 Configuration GamingMinimal {
 
     # Import the module that contains the resources we're using.
-    Import-Module -ModuleName PsDesiredStateConfiguration
+    Import-Module PsDesiredStateConfiguration
 
     $myusername = "ego"
     $mysid = (New-Object System.Security.Principal.NTAccount($myusername)).Translate([System.Security.Principal.SecurityIdentifier]).value
@@ -554,6 +554,7 @@ Configuration GamingMinimal {
             State = 'Stopped'
             StartupType = 'Disabled'
         }
+        # geolocation service
         Service Svclfsvc {
             Name   = "lfsvc"
             State = 'Stopped'
@@ -609,11 +610,11 @@ Configuration GamingMinimal {
             State = 'Stopped'
             StartupType = 'Disabled'
         }
-        Service SvcRemoteAccess {
-            Name   = "RemoteAccess"
-            State = 'Stopped'
-            StartupType = 'Disabled'
-        }
+        # Service SvcRemoteAccess {
+        #     Name   = "RemoteAccess"
+        #     State = 'Stopped'
+        #     StartupType = 'Disabled'
+        # }
         Service SvcSensorDataService {
             Name   = "SensorDataService"
             State = 'Stopped'
@@ -729,11 +730,11 @@ Configuration GamingMinimal {
         #    State = 'Running'
         #    StartupType = 'Automatic'
         #}
-        Service SvcWindowsRemoteManagement {
-            Name   = "WinRM"
-            State = 'Stopped'
-            StartupType = 'Disabled'
-        }
+        # Service SvcWindowsRemoteManagement {
+        #     Name   = "WinRM"
+        #     State = 'Stopped'
+        #     StartupType = 'Disabled'
+        # }
         Registry DisableMulticastDNS {
             Ensure = "Present"
             Key = "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient"
@@ -1065,10 +1066,10 @@ Configuration GamingMinimal {
         #    Name = "Printing-Foundation-Features"
         #    Ensure = "Disable"
         #}
-        #WindowsOptionalFeature WindowsMediaPlayer {
-        #    Name = "WindowsMediaPlayer"
-        #    Ensure = "Disable"
-        #}
+        WindowsOptionalFeature WindowsMediaPlayer {
+           Name = "WindowsMediaPlayer"
+           Ensure = "Disable"
+        }
         #WindowsOptionalFeature InternetExplorer {
         #    Name = "Internet-Explorer-Optional-amd64"
         #    Ensure = "Disable"
