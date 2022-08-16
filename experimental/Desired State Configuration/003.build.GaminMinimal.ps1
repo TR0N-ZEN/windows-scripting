@@ -589,16 +589,16 @@ Configuration GamingMinimal {
             State = 'Stopped'
             StartupType = 'Disabled'
         }
-        Service SvcSpooler {
-            Name   = "Spooler"
-            State = 'Stopped'
-            StartupType = 'Disabled'
-        }
-        Service SvcPrintNotify {
-            Name   = "PrintNotify"
-            State = 'Stopped'
-            StartupType = 'Disabled'
-        }
+        #Service SvcSpooler {
+        #    Name   = "Spooler"
+        #    State = 'Running'
+        #    StartupType = 'Disabled'
+        #}
+        #Service SvcPrintNotify {
+        #    Name   = "PrintNotify"
+        #    State = 'Stopped'
+        #    StartupType = 'Disabled'
+        #}
         Service SvcQWAVE {
             Name   = "QWAVE"
             State = 'Stopped'
@@ -724,10 +724,15 @@ Configuration GamingMinimal {
             State = 'Stopped'
             StartupType = 'Disabled'
         }
+        #Service SvcWindowsRemoteManagement {
+        #    Name   = "WinRM"
+        #    State = 'Running'
+        #    StartupType = 'Automatic'
+        #}
         Service SvcWindowsRemoteManagement {
             Name   = "WinRM"
-            State = 'Running'
-            StartupType = 'Automatic'
+            State = 'Stopped'
+            StartupType = 'Disabled'
         }
         Registry DisableMulticastDNS {
             Ensure = "Present"
