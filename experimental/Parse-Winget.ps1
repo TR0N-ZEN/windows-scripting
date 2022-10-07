@@ -9,6 +9,7 @@ $x = (winget list)
 $i = 0
 foreach ($line in $x)
 {
-  echo "[$i]$line"
+  Write-Output "[$i]$line"
   $i++
 }
+
