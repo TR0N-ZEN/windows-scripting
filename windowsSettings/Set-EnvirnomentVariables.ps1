@@ -4,7 +4,14 @@
 
 # Get-Item -Path Env:
 
-$HOME2 = 'D:\home\ego\' # variable is only set for current shell session
-$STUDIES = 'D:\home\ego\Documents\MEGA\studies\' # variable is only set for current shell session
-[Environment]::SetEnvironmentVariable('HOME2', 'D:\home\ego\') # variable is only set for current shell session
-[Environment]::SetEnvironmentVariable('HOME2', 'D:\home\ego\', 'User') # permanent because it is saved to the 'User' space
+# variable is only set for current shell session
+$HOME2 = 'D:\home\ego\'
+
+# variable is only set for current shell session
+$STUDIES = 'D:\home\ego\Documents\MEGA\studies\'
+
+# variable is only set for current shell session
+[Environment]::SetEnvironmentVariable('HOME2', 'D:\home\ego\')
+
+# permanent because it is saved to the 'User' space
+[Environment]::SetEnvironmentVariable('HOME2', 'D:\home\ego\', 'User')
