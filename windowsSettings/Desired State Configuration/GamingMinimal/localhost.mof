@@ -1,0 +1,2308 @@
+/*
+@TargetNode='localhost'
+@GeneratedBy=theor
+@GenerationDate=08/17/2022 00:23:13
+@GenerationHost=DESKTOP-SHESOKA
+*/
+
+instance of MSFT_RegistryResource as $MSFT_RegistryResource1ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer";
+ ValueName = "EnableAutoTray";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::32::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]ShowAllIconsTaskbar";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource2ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects";
+ ValueName = "VisualFXSetting";
+ ValueData = {
+    "2"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::39::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]VisualEffects";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource3ref
+{
+ValueType = "String";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Control Panel\\Mouse";
+ ValueName = "MouseSpeed";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::47::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]MouseSpeed";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource4ref
+{
+ValueType = "String";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Control Panel\\Mouse";
+ ValueName = "MouseThreshold1";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::54::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]MouseThreshold1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource5ref
+{
+ValueType = "String";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Control Panel\\Mouse";
+ ValueName = "MouseThreshold2";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::61::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]MouseThreshold2";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource6ref
+{
+ValueType = "String";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Control Panel\\Mouse";
+ ValueName = "MouseSensitivity";
+ ValueData = {
+    "10"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::68::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]MouseSensitivity";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource7ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Control Panel\\Desktop";
+ ValueName = "MouseWheelRouting";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::75::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableScrollInactiveWindow";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource8ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Control Panel\\Cursors";
+ ValueName = "ContactVisualization";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::83::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableMouseTouchFeedback1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource9ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Control Panel\\Cursors";
+ ValueName = "GestureVisualization";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::90::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableMouseTouchFeedback2";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource10ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Speech_OneCore\\Settings\\OnlineSpeechPrivacy";
+ ValueName = "HasAccepted";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::97::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableOnlineSpeechPrivacyandRecognition";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource11ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Search";
+ ValueName = "CortanaEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::104::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableCortanaTaskbar";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource12ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Search";
+ ValueName = "BingSearchEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::111::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableCortanaBingWebSearch";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource13ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Search";
+ ValueName = "CortanaConsent";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::118::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DoNotGiveCortanaConsent";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource14ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\AdvertisingInfo";
+ ValueName = "Enabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::125::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAdvertisingInfo";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource15ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Control Panel\\International\\User Profile";
+ ValueName = "HttpAcceptLanguageOptOut";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::132::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableInfoByLanguageList";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource16ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced";
+ ValueName = "Start_TrackProgs";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::139::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppLaunchTracking";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource17ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager";
+ ValueName = "SubscribedContent-338393Enabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::146::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableSuggestedContent1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource18ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager";
+ ValueName = "SubscribedContent-338394Enabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::153::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableSuggestedContent2";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource19ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager";
+ ValueName = "SubscribedContent-338396Enabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::160::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableSuggestedContent3";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource20ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Personalization\\Settings";
+ ValueName = "AcceptedPrivacyPolicy";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::167::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableInkingandPersonalization1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource21ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\SettingSync\\Groups\\Language";
+ ValueName = "Enabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::174::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableInkingandPersonalization2";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource22ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\InputPersonalization";
+ ValueName = "RestrictImplicitTextCollection";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::181::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableInkingandPersonalization3";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource23ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\InputPersonalization";
+ ValueName = "RestrictImplicitInkCollection";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::188::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableInkingandPersonalization4";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource24ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\InputPersonalization\\TrainedDataStore";
+ ValueName = "HarvestContacts";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::195::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableInkingandPersonalization5";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource25ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Diagnostics\\DiagTrack";
+ ValueName = "ShowedToastAtLevel";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::202::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DiagnosticsBasicUser1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource26ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Privacy";
+ ValueName = "TailoredExperiencesWithDiagnosticDataEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::209::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableTailoredExperiences";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource27ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Siuf\\Rules";
+ ValueName = "NumberOfSIUFInPeriod";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::216::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableFeedbackFrequency";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource28ref
+{
+ValueType = "String";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\webcam";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::223::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppsUsingCamera";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource29ref
+{
+ValueType = "String";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\radios";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::230::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppBluetoothAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource30ref
+{
+ValueType = "String";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\bluetoothSync";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::237::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableCommUnpairedDevices";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource31ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Search";
+ ValueName = "BackgroundAppGlobalToggle";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::244::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableBackgroundApps1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource32ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications";
+ ValueName = "GlobalUserDisabled";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::251::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableBackgroundApps2";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource33ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced";
+ ValueName = "HideFileExt";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::258::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]ShowFileExtensions";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource34ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows NT\\CurrentVersion\\AccessibilityTemp";
+ ValueName = "narrator";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::265::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableNarrator1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource35ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Narrator\\NoRoam";
+ ValueName = "RunningState";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::272::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableNarrator2";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource36ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\TabletTip\\1.7";
+ ValueName = "EnableAutocorrection";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::279::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAutoCorrect";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource37ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\TabletTip\\1.7";
+ ValueName = "EnableSpellchecking";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::286::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableSpellChecking";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource38ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\TabletTip\\1.7";
+ ValueName = "EnableTextPrediction";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::293::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableTypePrediction";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource39ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\TabletTip\\1.7";
+ ValueName = "EnablePredictionSpaceInsertion";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::300::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableSpaceInsertPrediction";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource40ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\TabletTip\\1.7";
+ ValueName = "EnableDoubleTapSpace";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::307::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableDoubleTapSpace";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource41ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Input\\Settings";
+ ValueName = "InsightsEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::314::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableTypingInsights1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource42ref
+{
+ValueType = "Binary";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Input\\Settings";
+ ValueName = "Insights";
+ ValueData = {
+    "01000000071de8c131cc8360a3d6d9c1330a686b165aba2e235f5a5c"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::321::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableTypingInsights2";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource43ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\TabletTip\\1.7";
+ ValueName = "EnableInkingWithTouch";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::328::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableSwiftKeySuggestionsLangEnglishUS";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource44ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\PenWorkspace";
+ ValueName = "PenWorkspaceAppSuggestionsEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::335::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisablePenandInk";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource45ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\AutoplayHandlers";
+ ValueName = "DisableAutoplay";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::342::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAutoPlay";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource46ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\System\\GameConfigStore";
+ ValueName = "GameDVR_Enabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::349::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableGameBar";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource47ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\GameBar";
+ ValueName = "UseNexusForGameBarEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::356::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableGameBarControllerShortcut";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource48ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\GameDVR";
+ ValueName = "AudioCaptureEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::363::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableGamingAudioCaptures";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource49ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\GameDVR";
+ ValueName = "HistoricalCaptureEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::370::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableGamingHistoricalCaptures";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource50ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\GameDVR";
+ ValueName = "CursorCaptureEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::377::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableGamingCursorCaptures";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource51ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\AppBroadcast\\GlobalSettings";
+ ValueName = "AudioCaptureEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::384::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableGamingBroadcasting1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource52ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\AppBroadcast\\GlobalSettings";
+ ValueName = "MicrophoneCaptureEnabledByDefault";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::391::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableGamingBroadcasting2";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource53ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\AppBroadcast\\GlobalSettings";
+ ValueName = "CursorCaptureEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::398::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableGamingBroadcasting3";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource54ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\AppBroadcast\\GlobalSettings";
+ ValueName = "CameraCaptureEnabledByDefault";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::405::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableGamingBroadcasting4";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource55ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\GameBar";
+ ValueName = "AutoGameModeEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::412::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableGamingMode";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource56ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\UserARSO\\S-1-5-21-2014158692-1734588031-1288076591-1001";
+ ValueName = "OptOut";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::419::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableSigninOptionReopenApps";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource57ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\SystemProtectedUserData\\S-1-5-21-2014158692-1734588031-1288076591-1001\\AnyoneRead\\LockScreen\\";
+ ValueName = "HideLogonBackgroundImage";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::426::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableLoginBackgroundImageonLockScreen";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource58ref
+{
+ValueType = "Binary";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run";
+ ValueName = "OneDrive";
+ ValueData = {
+    "0100000004077640378fd401"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::433::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableOneDriveStartUp";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource59ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize";
+ ValueName = "EnableTransparency";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::440::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisablePersonalizationTransparencyEffect";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource60ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\People";
+ ValueName = "PeopleBand";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::447::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableShowPeopleOnTaskbar";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource61ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings";
+ ValueName = "ProxyEnable";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::454::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAutoDetectProxy";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource62ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\CDP";
+ ValueName = "RomeSdkChannelUserAuthzPolicy";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::461::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableShareAcrossDevices1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource63ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\CDP";
+ ValueName = "CdpSessionUserAuthzPolicy";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::468::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableShareAcrossDevices2";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource64ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\PushNotifications";
+ ValueName = "LockScreenToastEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::475::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableLockScreenNotifications1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource65ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Notifications\\Settings";
+ ValueName = "NOC_GLOBAL_SETTING_ALLOW_TOASTS_ABOVE_LOCK";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::482::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableLockScreenNotifications2";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource66ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Notifications\\Settings";
+ ValueName = "NOC_GLOBAL_SETTING_ALLOW_CRITICAL_TOASTS_ABOVE_LOCK";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::489::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableLockScreenNotifications3";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource67ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\PushNotifications";
+ ValueName = "ToastEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::496::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableToastNotifications";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource68ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\ImmersiveShell";
+ ValueName = "SignInMode";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::503::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]EnforceDesktopModeNotTablet1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource69ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\ImmersiveShell";
+ ValueName = "ConvertibleSlateModePromptPreference";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::510::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]EnforceDesktopModeNotTablet2";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource70ref
+{
+ValueType = "String";
+ Key = "HKEY_USERS\\S-1-5-21-2014158692-1734588031-1288076591-1001\\Control Panel\\Desktop";
+ ValueName = "WindowArrangementActive";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::517::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableMultitaskingSnap";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource1ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::532::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "AxInstSV";
+ ResourceID = "[Service]SvcAxInstSV";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource2ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::537::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "tzautoupdate";
+ ResourceID = "[Service]Svctzautoupdate";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource3ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::542::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "bthserv";
+ ResourceID = "[Service]Svcbthserv";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource4ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::547::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "dmwappushservice";
+ ResourceID = "[Service]Svcdmwappushservice";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource5ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::552::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "MapsBroker";
+ ResourceID = "[Service]SvcMapsBroker";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource6ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::558::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "lfsvc";
+ ResourceID = "[Service]Svclfsvc";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource7ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::563::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "SharedAccess";
+ ResourceID = "[Service]SvcSharedAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource8ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::568::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "lltdsvc";
+ ResourceID = "[Service]Svclltdsvc";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource9ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::573::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "AppVClient";
+ ResourceID = "[Service]SvcAppVClient";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource10ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::578::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "NetTcpPortSharing";
+ ResourceID = "[Service]SvcNetTcpPortSharing";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource11ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::583::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "CscService";
+ ResourceID = "[Service]SvcCscService";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource12ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::588::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "PhoneSvc";
+ ResourceID = "[Service]SvcPhoneSvc";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource13ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::603::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "QWAVE";
+ ResourceID = "[Service]SvcQWAVE";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource14ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::608::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "RmSvc";
+ ResourceID = "[Service]SvcRmSvc";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource15ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::618::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "SensorDataService";
+ ResourceID = "[Service]SvcSensorDataService";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource16ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::623::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "SensrSvc";
+ ResourceID = "[Service]SvcSensrSvc";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource17ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::628::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "SensorService";
+ ResourceID = "[Service]SvcSensorService";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource18ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::633::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "ShellHWDetection";
+ ResourceID = "[Service]SvcShellHWDetection";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource19ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::638::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "SCardSvr";
+ ResourceID = "[Service]SvcSCardSvr";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource20ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::643::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "ScDeviceEnum";
+ ResourceID = "[Service]SvcScDeviceEnum";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource21ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::648::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "SSDPSRV";
+ ResourceID = "[Service]SvcSSDPSRV";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource22ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::653::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "WiaRpc";
+ ResourceID = "[Service]SvcWiaRpc";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource23ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::658::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "TabletInputService";
+ ResourceID = "[Service]SvcTabletInputService";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource24ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::663::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "upnphost";
+ ResourceID = "[Service]Svcupnphost";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource25ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::668::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "UevAgentService";
+ ResourceID = "[Service]SvcUevAgentService";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource26ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::673::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "WalletService";
+ ResourceID = "[Service]SvcWalletService";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource27ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::678::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "FrameServer";
+ ResourceID = "[Service]SvcFrameServer";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource28ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::683::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "stisvc";
+ ResourceID = "[Service]Svcstisvc";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource29ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::688::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "wisvc";
+ ResourceID = "[Service]Svcwisvc";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource30ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::693::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "icssvc";
+ ResourceID = "[Service]Svcicssvc";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource31ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::698::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "WSearch";
+ ResourceID = "[Service]SvcWSearch";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource32ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::703::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "XblAuthManager";
+ ResourceID = "[Service]SvcXblAuthManager";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource33ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::708::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "XblGameSave";
+ ResourceID = "[Service]SvcXblGameSave";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource34ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::713::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "SEMgrSvc";
+ ResourceID = "[Service]SvcSEMgrSvc";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource35ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::718::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "DiagTrack";
+ ResourceID = "[Service]SvcDiagTrack";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_ServiceResource as $MSFT_ServiceResource36ref
+{
+State = "Stopped";
+ StartupType = "Disabled";
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::723::9::Service";
+ ModuleName = "PsDesiredStateConfiguration";
+ Name = "NcdAutoSetup";
+ ResourceID = "[Service]SvcNcdAutoSetup";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource71ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\DNSClient";
+ ValueName = "EnableMulticast";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::738::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableMulticastDNS";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource72ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Personalization";
+ ValueName = "NoLockScreen";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::745::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableLockScreenApp";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource73ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Power\\PowerThrottling";
+ ValueName = "PowerThrottlingOff";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::752::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisablePowerThrottleFeature";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource74ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Device Metadata";
+ ValueName = "PreventDeviceMetadataFromNetwork";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::759::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAutomaticDeviceMetaDataDownload";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource75ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate\\AU";
+ ValueName = "NoAutoUpdate";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::766::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAutomaticUpdates";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource76ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\WindowsStore";
+ ValueName = "AutoDownload";
+ ValueData = {
+    "2"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::773::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableStoreAutomaticUpdates";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource77ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search";
+ ValueName = "AllowCortana";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::780::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableCortanaSearch";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource78ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search";
+ ValueName = "DisableWebSearch";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::787::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableCortanaWebSearch";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource79ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\DataCollection";
+ ValueName = "AllowTelemetry";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::794::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DiagnosticsBasic1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource80ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\DataCollection";
+ ValueName = "MaxTelemetryAllowed";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::801::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DiagnosticsBasic2";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource81ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Diagnostics\\DiagTrack";
+ ValueName = "UploadPermissionReceived";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::808::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DiagnosticsBasic3";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource82ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Diagnostics\\DiagTrack";
+ ValueName = "DiagTrackAuthorization";
+ ValueData = {
+    "775"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::815::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DiagnosticsBasic4";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource83ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Diagnostics\\DiagTrack";
+ ValueName = "DiagTrackStatus";
+ ValueData = {
+    "2"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::822::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DiagnosticsBasic5";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource84ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Diagnostics\\DiagTrack\\TraceManager";
+ ValueName = "miniTraceSlotEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::829::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DiagnosticsBasic6";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource85ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Diagnostics\\DiagTrack\\TraceManager";
+ ValueName = "miniTraceSlotContentPermitted";
+ ValueData = {
+    "1"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::836::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DiagnosticsBasic7";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource86ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\System";
+ ValueName = "PublishUserActivities";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::843::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableActivityPublishing";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource87ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\System";
+ ValueName = "UploadUserActivities";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::850::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableActivityUpload";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource88ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\userNotificationListener";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::857::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppNotificationsAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource89ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\userAccountInformation";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::864::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppAccountInfoAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource90ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\contacts";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::871::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppContactInfoAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource91ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\phoneCall";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::878::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppPhoneCall";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource92ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\appointments";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::885::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppCalendarAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource93ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\phoneCallHistory";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::892::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppCallHist";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource94ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\email";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::899::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppEmailsAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource95ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\userDataTasks";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::906::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppTaskAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource96ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\chat";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::913::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppMessagingAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource97ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\radios";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::920::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppRadioAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource98ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\appDiagnostics";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::927::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppDiagAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource99ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\documentsLibrary";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::934::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppDocumentAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource100ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\picturesLibrary";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::941::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppPicutresAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource101ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\videosLibrary";
+ ValueName = "Value";
+ ValueData = {
+    "Deny"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::948::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppVideoAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource102ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\broadFileSystemAccess";
+ ValueName = "Value";
+ ValueData = {
+    "Allow"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::955::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableAppFileSystemAccess";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource103ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-20\\Software\\Microsoft\\Windows\\CurrentVersion\\DeliveryOptimization\\Settings";
+ ValueName = "DownloadMode";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::962::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableDeliveryOptDownloadOtherPCs1";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource104ref
+{
+ValueType = "Dword";
+ Key = "HKEY_USERS\\S-1-5-20\\Software\\Microsoft\\Windows\\CurrentVersion\\DeliveryOptimization\\Settings";
+ ValueName = "DownloadModeProvider";
+ ValueData = {
+    "8"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::969::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableDeliveryOptDownloadOtherPCs2";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource105ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Settings\\FindMyDevice";
+ ValueName = "LocationSyncEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::976::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableFindMyDevice";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource106ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Tcpip6\\Parameters";
+ ValueName = "DisabledComponents";
+ ValueData = {
+    "32"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::983::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]PreferIPv4overIPv6";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource107ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Remote Assistance";
+ ValueName = "fAllowToGetHelp";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::990::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableRemoteAssistance";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource108ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search";
+ ValueName = "AllowCloudSearch";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::997::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableCloudSearch";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource109ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager\\Power";
+ ValueName = "HiberbootEnabled";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::1004::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableFastBoot";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource110ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FlyoutMenuSettings";
+ ValueName = "ShowSleepOption";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::1011::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableShowSleep";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource111ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FlyoutMenuSettings";
+ ValueName = "ShowHibernateOption";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::1018::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableShowHibernate";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource112ref
+{
+ValueType = "String";
+ Key = "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Power\\User\\PowerSchemes";
+ ValueName = "ActivePowerScheme";
+ ValueData = {
+    "8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::1025::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]EnableHighPerfPowerScheme";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource113ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Power\\User\\PowerSchemes\\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c\\2a737441-1930-4402-8d77-b2bebba308a3\\48e6b7a6-50f5-4782-a5d4-53bb8f07e226";
+ ValueName = "ACSettingIndex";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::1032::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableUSBSelectiveSuspend";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource114ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Defender\\Spynet";
+ ValueName = "SubmitSamplesConsent";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::1039::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableDefenderAutomaticSampleSubmit";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_RegistryResource as $MSFT_RegistryResource115ref
+{
+ValueType = "Dword";
+ Key = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\GameDVR";
+ ValueName = "AllowgameDVR";
+ ValueData = {
+    "0"
+};
+ SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::1046::9::Registry";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Present";
+ ResourceID = "[Registry]DisableGameDVR";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of MSFT_WindowsOptionalFeature as $MSFT_WindowsOptionalFeature1ref
+{
+SourceInfo = "D:\\home\\ego\\Desktop\\windows-scripting\\experimental\\Desired State Configuration\\003.build.GaminMinimal.ps1::1069::9::WindowsOptionalFeature";
+ ModuleName = "PsDesiredStateConfiguration";
+ Ensure = "Disable";
+ Name = "WindowsMediaPlayer";
+ ResourceID = "[WindowsOptionalFeature]WindowsMediaPlayer";
+
+ModuleVersion = "1.0";
+ ConfigurationName = "GamingMinimal";
+};
+instance of OMI_ConfigurationDocument
+
+                    {
+ Version="2.0.0";
+
+                        MinimumCompatibleVersion = "1.0.0";
+
+                        CompatibleVersionAdditionalProperties= {"Omi_BaseResource:ConfigurationName"};
+
+                        Author="theor";
+
+                        GenerationDate="08/17/2022 00:23:13";
+
+                        GenerationHost="DESKTOP-SHESOKA";
+
+                        Name="GamingMinimal";
+
+                    };
