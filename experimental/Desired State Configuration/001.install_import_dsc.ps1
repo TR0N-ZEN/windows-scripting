@@ -1,5 +1,5 @@
 Set-Service -Name WinRM -StartupType Manual
-Set-Service -Name WinRM -Status Running
+Start-Service -Name WinRM
 
 Install-Module -Name PSDesiredStateConfiguration -Repository PSGallery -MaximumVersion 2.99
 Import-Module -Name PSDesiredStateConfiguration
