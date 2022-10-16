@@ -1,7 +1,6 @@
 Configuration MyDscConfiguration {
     Import-Module -ModuleName PsDesiredStateConfiguration
-    $myusername = "ego"
-    $mysid = (New-Object System.Security.Principal.NTAccount($myusername)).Translate([System.Security.Principal.SecurityIdentifier]).value
+    $mysid = (New-Object System.Security.Principal.NTAccount([Environment]::Getenvironmentvariable('USERNAME'))).Translate([System.Security.Principal.SecurityIdentifier]).value
     Node "localhost" { #PC-NAME
         WindowsFeature MyFeatureInstance {
             Ensure = 'Present'

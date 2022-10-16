@@ -18,8 +18,7 @@ Configuration GamingMinimal {
     # Import the module that contains the resources we're using.
     Import-Module PsDesiredStateConfiguration
 
-    $myusername = "ego"
-    $mysid = (New-Object System.Security.Principal.NTAccount($myusername)).Translate([System.Security.Principal.SecurityIdentifier]).value
+    $mysid = (New-Object System.Security.Principal.NTAccount([Environment]::Getenvironmentvariable('USERNAME'))).Translate([System.Security.Principal.SecurityIdentifier]).value
 
     # The Node statement specifies which targets this configuration will be applied to.
     Node 'localhost' {
@@ -1054,22 +1053,22 @@ Configuration GamingMinimal {
         #    Name = "Printing-PrintToPDFServices-Features"
         #    Ensure = "Disable"
         #}
-        #WindowsOptionalFeature WorkFolders {
+        # WindowsOptionalFeature WorkFolders {
         #    Name = "WorkFolders-Client"
         #    Ensure = "Disable"
-        #}
+        # }
         #WindowsOptionalFeature XPS {
         #    Name = "Printing-XPSServices-Features"
         #    Ensure = "Disable"
         #}
-        #WindowsOptionalFeature PrintFeatures {
-        #    Name = "Printing-Foundation-Features"
-        #    Ensure = "Disable"
-        #}
-        WindowsOptionalFeature WindowsMediaPlayer {
-           Name = "WindowsMediaPlayer"
+        WindowsOptionalFeature PrintFeatures {
+           Name = "Printing-Foundation-Features"
            Ensure = "Disable"
         }
+        # WindowsOptionalFeature WindowsMediaPlayer {
+        #    Name = "WindowsMediaPlayer"
+        #    Ensure = "Disable"
+        # }
         #WindowsOptionalFeature InternetExplorer {
         #    Name = "Internet-Explorer-Optional-amd64"
         #    Ensure = "Disable"
