@@ -1,6 +1,6 @@
 $basics = 
-# 'Norton Security Protection' from msstore
-'9NKK9HHB8HHF', 
+# 'Norton 360' from msstore
+'XPFNZKWN35KD6Z', 
 # BraveSoftware.BraveBrowser for mstore
 'XP8C9QZMS2PC1T',
 # firefox from msstore
@@ -28,7 +28,7 @@ $dev =
 # 'BellSoft.LibericaJDK.17',
 # 'JetBrains.IntelliJIDEA.Community',
 # 'TimKosse.FileZilla.Client',
-# 'Win32DiskImager',
+# 'Win32DiskImager'
 
 
 $gaming =
