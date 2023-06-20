@@ -1046,10 +1046,10 @@ Configuration GamingMinimalConfig {
         #    Name = "Printing-XPSServices-Features"
         #    Ensure = "Disable"
         #}
-        WindowsOptionalFeature PrintFeatures {
-           Name = "Printing-Foundation-Features"
-           Ensure = "Disable"
-        }
+        # WindowsOptionalFeature PrintFeatures {
+        #    Name = "Printing-Foundation-Features"
+        #    Ensure = "Disable"
+        # }
         # WindowsOptionalFeature WindowsMediaPlayer {
         #    Name = "WindowsMediaPlayer"
         #    Ensure = "Disable"

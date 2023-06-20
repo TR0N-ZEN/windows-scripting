@@ -264,27 +264,6 @@ Configuration MyBasicConfig {
             ValueData   = "0"
             ValueType = "Dword"
         }
-        Registry DisableAdvertisingInfo {
-            Ensure = "Present"
-            Key = "HKEY_USERS\${mysid}\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo"
-            ValueName   = "Enabled"
-            ValueData   = "0"
-            ValueType = "Dword"
-        }
-        Registry DisableInfoByLanguageList {
-            Ensure = "Present"
-            Key = "HKEY_USERS\${mysid}\Control Panel\International\User Profile"
-            ValueName   = "HttpAcceptLanguageOptOut"
-            ValueData   = "1"
-            ValueType = "Dword"
-        }
-        Registry DisableAppLaunchTracking {
-            Ensure = "Present"
-            Key = "HKEY_USERS\${mysid}\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
-            ValueName   = "Start_TrackProgs"
-            ValueData   = "0"
-            ValueType = "Dword"
-        }
     }
 }
 
