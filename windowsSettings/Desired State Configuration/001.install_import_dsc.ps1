@@ -1,3 +1,5 @@
+# execute in powershell of version 7.*.*
+
 Set-Service -Name WinRM -StartupType Manual
 Start-Service -Name WinRM
 
@@ -12,7 +14,7 @@ Import-Module PSDscResources
 
 # https://learn.microsoft.com/en-us/powershell/module/psdesiredstateconfiguration/?source=recommendations&view=dsc-2.0
 Install-Module -Name PSDesiredStateConfiguration -Repository PSGallery -MaximumVersion 2.99
-Import-Module -Name PSDesiredStateConfiguration
+Import-Module -Name PSDesiredStateConfiguration -RequiredVersion 2.0.7
 
 # don't know why I should need this module
 # Install-Module -Name ComputerManagementDsc -Repository PSGallery
