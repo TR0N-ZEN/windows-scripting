@@ -701,13 +701,13 @@ Configuration GamingMinimal {
         }
         Service SvcXblAuthManager {
             Name   = "XblAuthManager"
-            State = 'Stopped'
-            StartupType = 'Disabled'
+            State = 'Running'
+            StartupType = 'Automatic'
         }
         Service SvcXblGameSave {
             Name   = "XblGameSave"
-            State = 'Stopped'
-            StartupType = 'Disabled'
+            State = 'Running'
+            StartupType = 'Automatic'
         }
         Service SvcSEMgrSvc {
             Name   = "SEMgrSvc"
