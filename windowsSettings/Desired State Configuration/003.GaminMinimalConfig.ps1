@@ -1,22 +1,7 @@
-# This SOFTWARE PRODUCT is provided by THE PROVIDER "as is" and "with all faults." 
-# THE PROVIDER makes no representations or warranties of any kind concerning the safety, 
-# suitability, inaccuracies, typographical errors, or other harmful components 
-# of this SOFTWARE PRODUCT. There are inherent dangers in the use of any software, and you are 
-# solely responsible for determining whether this SOFTWARE PRODUCT is compatible with your equipment 
-# and other software installed on your equipment. You are also solely responsible for the protection 
-# of your equipment and backup of your data, and THE PROVIDER will not be liable for any damages you 
-# may suffer in connection with using, modifying, or distributing this SOFTWARE PRODUCT.
-#
-#
-# Author: DDallmann (Alias Timecard, TC!)
-# https://github.com/djdallmann
-# https://play.esea.net/users/26101
-# steamcommunity.com/id/tcard
+Configuration GamingMinimalConfig {
 
-Configuration GamingMinimal {
-
-    # Import the module that contains the resources we're using.
-    Import-Module PsDesiredStateConfiguration
+    # installing dsc resources https://learn.microsoft.com/de-de/powershell/dsc/how-tos/installing-dsc-resources?view=dsc-2.0
+    Import-DscResource -ModuleName PSDscResources -Name Registry, Service, WindowsOptionalFeature
 
     $mysid = (New-Object System.Security.Principal.NTAccount([Environment]::Getenvironmentvariable('USERNAME'))).Translate([System.Security.Principal.SecurityIdentifier]).value
 
@@ -860,13 +845,13 @@ Configuration GamingMinimal {
             ValueData   = "Deny"
             ValueType = "String"
         }
-        Registry DisableAppAccountInfoAccess {
-            Ensure = "Present"
-            Key = "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\userAccountInformation"
-            ValueName   = "Value"
-            ValueData   = "Deny"
-            ValueType = "String"
-        }
+        # Registry DisableAppAccountInfoAccess {
+        #     Ensure = "Present"
+        #     Key = "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\userAccountInformation"
+        #     ValueName   = "Value"
+        #     ValueData   = "Deny"
+        #     ValueType = "String"
+        # }
         Registry DisableAppContactInfoAccess {
             Ensure = "Present"
             Key = "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\contacts"
@@ -951,13 +936,13 @@ Configuration GamingMinimal {
             ValueData   = "Deny"
             ValueType = "String"
         }
-        Registry DisableAppFileSystemAccess {
-            Ensure = "Present"
-            Key = "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\broadFileSystemAccess"
-            ValueName   = "Value"
-            ValueData   = "Allow"
-            ValueType = "String"
-        }
+        # Registry DisableAppFileSystemAccess {
+        #     Ensure = "Present"
+        #     Key = "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\broadFileSystemAccess"
+        #     ValueName   = "Value"
+        #     ValueData   = "Allow"
+        #     ValueType = "String"
+        # }
         Registry DisableDeliveryOptDownloadOtherPCs1 {
             Ensure = "Present"
             Key = "HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Settings"
@@ -986,13 +971,13 @@ Configuration GamingMinimal {
             ValueData   = "32"
             ValueType = "Dword"
         }
-        Registry DisableRemoteAssistance {
-            Ensure = "Present"
-            Key = "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Remote Assistance"
-            ValueName   = "fAllowToGetHelp"
-            ValueData   = "0"
-            ValueType = "Dword"
-        }
+        # Registry DisableRemoteAssistance {
+        #     Ensure = "Present"
+        #     Key = "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Remote Assistance"
+        #     ValueName   = "fAllowToGetHelp"
+        #     ValueData   = "0"
+        #     ValueType = "Dword"
+        # }
         Registry DisableCloudSearch {
             Ensure = "Present"
             Key = "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search"
@@ -1076,4 +1061,5 @@ Configuration GamingMinimal {
 
     }
 }
-GamingMinimal
+
+GamingMinimalConfig
