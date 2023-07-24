@@ -6,9 +6,12 @@
 # https://learn.microsoft.com/en-us/powershell/dsc/managing-nodes/apply-get-test?source=recommendations&view=dsc-1.1&viewFallbackFrom=dsc-2.0
 
 # this module provides commands with the noun DscConfiguration
-Import-Module -Name PSDesiredStateConfiguration -RequiredVersion 2.0.7
+Import-Module -Name PSDesiredStateConfiguration -Force -RequiredVersion 2.0.7
 
-Start-DscConfiguration -Path .\GamingMinimalConfig\ -wait -verbose # -force
+Set-Service -Name WinRM -StartupType Manual
+Start-Service -Name WinRM
+
+#Start-DscConfiguration -Path .\GamingMinimalConfig\ -wait -verbose # -force
 Start-DscConfiguration -Path .\MyBasicConfig\ -wait -verbose # -force
 
 Stop-Service -Name WinRM
