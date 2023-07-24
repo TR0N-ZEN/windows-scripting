@@ -313,20 +313,6 @@ Configuration MyBasicConfig {
             ValueData   = "0"
             ValueType = "Dword"
         }
-        Registry DisableCortanaSearch {
-            Ensure = "Present"
-            Key = "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search"
-            ValueName   = "AllowCortana"
-            ValueData   = "0"
-            ValueType = "Dword"
-        }
-        Registry DisableCortanaWebSearch {
-            Ensure = "Present"
-            Key = "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search"
-            ValueName   = "DisableWebSearch"
-            ValueData   = "1"
-            ValueType = "Dword"
-        }
         Registry DiagnosticsBasic1 {
             Ensure = "Present"
             Key = "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection"
