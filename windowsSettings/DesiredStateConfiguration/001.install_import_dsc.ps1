@@ -1,9 +1,5 @@
 # execute in powershell of version 7.*.*
 
-Set-Service -Name WinRM -StartupType Manual
-Start-Service -Name WinRM
-
-
 # from here following https://learn.microsoft.com/de-de/powershell/dsc/how-tos/installing-dsc-resources?view=dsc-2.0
 
 Install-Module PowerShellGet -Force -AllowClobber
