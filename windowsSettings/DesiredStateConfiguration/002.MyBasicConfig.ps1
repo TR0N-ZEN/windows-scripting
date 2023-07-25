@@ -18,7 +18,7 @@ Configuration MyBasicConfig {
             ValueName   = "HasAccepted"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableCortanaTaskbar {
             Ensure = "Present"
@@ -26,7 +26,7 @@ Configuration MyBasicConfig {
             ValueName   = "CortanaEnabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableCortanaBingWebSearch {
             Ensure = "Present"
@@ -34,7 +34,7 @@ Configuration MyBasicConfig {
             ValueName   = "BingSearchEnabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DoNotGiveCortanaConsent {
             Ensure = "Present"
@@ -42,7 +42,7 @@ Configuration MyBasicConfig {
             ValueName   = "CortanaConsent"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableCortanaSearch {
             Ensure = "Present"
@@ -50,7 +50,7 @@ Configuration MyBasicConfig {
             ValueName   = "AllowCortana"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableCortanaWebSearch {
             Ensure = "Present"
@@ -58,7 +58,7 @@ Configuration MyBasicConfig {
             ValueName   = "DisableWebSearch"
             ValueData   = "1"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableAdvertisingInfo {
             Ensure = "Present"
@@ -66,7 +66,7 @@ Configuration MyBasicConfig {
             ValueName   = "Enabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableInfoByLanguageList {
             Ensure = "Present"
@@ -74,7 +74,7 @@ Configuration MyBasicConfig {
             ValueName   = "HttpAcceptLanguageOptOut"
             ValueData   = "1"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableAppLaunchTracking {
             Ensure = "Present"
@@ -82,7 +82,7 @@ Configuration MyBasicConfig {
             ValueName   = "Start_TrackProgs"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableSuggestedContent1 {
             Ensure = "Present"
@@ -90,7 +90,7 @@ Configuration MyBasicConfig {
             ValueName   = "SubscribedContent-338393Enabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableSuggestedContent2 {
             Ensure = "Present"
@@ -98,7 +98,7 @@ Configuration MyBasicConfig {
             ValueName   = "SubscribedContent-338394Enabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableSuggestedContent3 {
             Ensure = "Present"
@@ -106,7 +106,7 @@ Configuration MyBasicConfig {
             ValueName   = "SubscribedContent-338396Enabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry ShowFileExtensions {
             Ensure = "Present"
@@ -114,7 +114,7 @@ Configuration MyBasicConfig {
             ValueName   = "HideFileExt"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableNarrator1 {
             Ensure = "Present"
@@ -122,7 +122,7 @@ Configuration MyBasicConfig {
             ValueName   = "narrator"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableNarrator2 {
             Ensure = "Present"
@@ -130,7 +130,7 @@ Configuration MyBasicConfig {
             ValueName   = "RunningState"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableAutoCorrect {
             Ensure = "Present"
@@ -138,7 +138,7 @@ Configuration MyBasicConfig {
             ValueName   = "EnableAutocorrection"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableSpellChecking {
             Ensure = "Present"
@@ -146,7 +146,7 @@ Configuration MyBasicConfig {
             ValueName   = "EnableSpellchecking"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableTypePrediction {
             Ensure = "Present"
@@ -154,7 +154,7 @@ Configuration MyBasicConfig {
             ValueName   = "EnableTextPrediction"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableSpaceInsertPrediction {
             Ensure = "Present"
@@ -162,7 +162,7 @@ Configuration MyBasicConfig {
             ValueName   = "EnablePredictionSpaceInsertion"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableDoubleTapSpace {
             Ensure = "Present"
@@ -170,7 +170,7 @@ Configuration MyBasicConfig {
             ValueName   = "EnableDoubleTapSpace"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableTypingInsights1 {
             Ensure = "Present"
@@ -178,15 +178,15 @@ Configuration MyBasicConfig {
             ValueName   = "InsightsEnabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableTypingInsights2 {
             Ensure = "Present"
             Key = "HKEY_USERS\${mysid}\Software\Microsoft\Input\Settings"
             ValueName   = "Insights"
             ValueData   = "01000000071de8c131cc8360a3d6d9c1330a686b165aba2e235f5a5c"
-            ValueType = "Binary
-            Force = $true"
+            ValueType = "Binary"
+            Force = $True
         }
         Registry DisableSwiftKeySuggestionsLangEnglishUS {
             Ensure = "Present"
@@ -194,7 +194,7 @@ Configuration MyBasicConfig {
             ValueName   = "EnableInkingWithTouch"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableAutoPlay {
             Ensure = "Present"
@@ -202,7 +202,7 @@ Configuration MyBasicConfig {
             ValueName   = "DisableAutoplay"
             ValueData   = "1"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableGamingAudioCaptures {
             Ensure = "Present"
@@ -210,7 +210,7 @@ Configuration MyBasicConfig {
             ValueName   = "AudioCaptureEnabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableGamingHistoricalCaptures {
             Ensure = "Present"
@@ -218,7 +218,7 @@ Configuration MyBasicConfig {
             ValueName   = "HistoricalCaptureEnabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableGamingCursorCaptures {
             Ensure = "Present"
@@ -226,7 +226,7 @@ Configuration MyBasicConfig {
             ValueName   = "CursorCaptureEnabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableGamingBroadcasting1 {
             Ensure = "Present"
@@ -234,7 +234,7 @@ Configuration MyBasicConfig {
             ValueName   = "AudioCaptureEnabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableGamingBroadcasting2 {
             Ensure = "Present"
@@ -242,7 +242,7 @@ Configuration MyBasicConfig {
             ValueName   = "MicrophoneCaptureEnabledByDefault"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableGamingBroadcasting3 {
             Ensure = "Present"
@@ -250,7 +250,7 @@ Configuration MyBasicConfig {
             ValueName   = "CursorCaptureEnabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableGamingBroadcasting4 {
             Ensure = "Present"
@@ -258,7 +258,7 @@ Configuration MyBasicConfig {
             ValueName   = "CameraCaptureEnabledByDefault"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableLoginBackgroundImageonLockScreen {
             Ensure = "Present"
@@ -266,15 +266,15 @@ Configuration MyBasicConfig {
             ValueName   = "HideLogonBackgroundImage"
             ValueData   = "1"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableOneDriveStartUp {
             Ensure = "Present"
             Key = "HKEY_USERS\${mysid}\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run"
             ValueName   = "OneDrive"
             ValueData   = "0100000004077640378fd401"
-            ValueType = "Binary
-            Force = $true"
+            ValueType = "Binary"
+            Force = $True
         }
         Registry DisableShowPeopleOnTaskbar {
             Ensure = "Present"
@@ -282,7 +282,7 @@ Configuration MyBasicConfig {
             ValueName   = "PeopleBand"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableBackgroundApps1 {
             Ensure = "Present"
@@ -290,7 +290,7 @@ Configuration MyBasicConfig {
             ValueName   = "BackgroundAppGlobalToggle"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableBackgroundApps2 {
             Ensure = "Present"
@@ -298,7 +298,7 @@ Configuration MyBasicConfig {
             ValueName   = "GlobalUserDisabled"
             ValueData   = "1"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableFastBoot {
             Ensure = "Present"
@@ -306,7 +306,7 @@ Configuration MyBasicConfig {
             ValueName   = "HiberbootEnabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableShowSleep {
             Ensure = "Present"
@@ -314,7 +314,7 @@ Configuration MyBasicConfig {
             ValueName   = "ShowSleepOption"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableShowHibernate {
             Ensure = "Present"
@@ -322,7 +322,7 @@ Configuration MyBasicConfig {
             ValueName   = "ShowHibernateOption"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableCloudSearch {
             Ensure = "Present"
@@ -330,7 +330,7 @@ Configuration MyBasicConfig {
             ValueName   = "AllowCloudSearch"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableDeliveryOptDownloadOtherPCs1 {
             Ensure = "Present"
@@ -338,7 +338,7 @@ Configuration MyBasicConfig {
             ValueName   = "DownloadMode"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableDeliveryOptDownloadOtherPCs2 {
             Ensure = "Present"
@@ -346,7 +346,7 @@ Configuration MyBasicConfig {
             ValueName   = "DownloadModeProvider"
             ValueData   = "8"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableFindMyDevice {
             Ensure = "Present"
@@ -354,7 +354,7 @@ Configuration MyBasicConfig {
             ValueName   = "LocationSyncEnabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DiagnosticsBasic1 {
             Ensure = "Present"
@@ -362,7 +362,7 @@ Configuration MyBasicConfig {
             ValueName   = "AllowTelemetry"
             ValueData   = "1"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DiagnosticsBasic2 {
             Ensure = "Present"
@@ -370,7 +370,7 @@ Configuration MyBasicConfig {
             ValueName   = "MaxTelemetryAllowed"
             ValueData   = "1"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DiagnosticsBasic3 {
             Ensure = "Present"
@@ -378,7 +378,7 @@ Configuration MyBasicConfig {
             ValueName   = "UploadPermissionReceived"
             ValueData   = "1"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DiagnosticsBasic4 {
             Ensure = "Present"
@@ -386,7 +386,7 @@ Configuration MyBasicConfig {
             ValueName   = "DiagTrackAuthorization"
             ValueData   = "775"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DiagnosticsBasic5 {
             Ensure = "Present"
@@ -394,7 +394,7 @@ Configuration MyBasicConfig {
             ValueName   = "DiagTrackStatus"
             ValueData   = "2"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DiagnosticsBasic6 {
             Ensure = "Present"
@@ -402,7 +402,7 @@ Configuration MyBasicConfig {
             ValueName   = "miniTraceSlotEnabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DiagnosticsBasic7 {
             Ensure = "Present"
@@ -410,7 +410,7 @@ Configuration MyBasicConfig {
             ValueName   = "miniTraceSlotContentPermitted"
             ValueData   = "1"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableActivityPublishing {
             Ensure = "Present"
@@ -418,7 +418,7 @@ Configuration MyBasicConfig {
             ValueName   = "PublishUserActivities"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableActivityUpload {
             Ensure = "Present"
@@ -426,7 +426,7 @@ Configuration MyBasicConfig {
             ValueName   = "UploadUserActivities"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisablePersonalizationTransparencyEffect {
             Ensure = "Present"
@@ -434,7 +434,7 @@ Configuration MyBasicConfig {
             ValueName   = "EnableTransparency"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableTailoredExperiences {
             Ensure = "Present"
@@ -442,7 +442,7 @@ Configuration MyBasicConfig {
             ValueName   = "TailoredExperiencesWithDiagnosticDataEnabled"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
         Registry DisableFeedbackFrequency {
             Ensure = "Present"
@@ -450,7 +450,7 @@ Configuration MyBasicConfig {
             ValueName   = "NumberOfSIUFInPeriod"
             ValueData   = "0"
             ValueType = "Dword"
-            Force = $true
+            Force = $True
         }
     }
 }
