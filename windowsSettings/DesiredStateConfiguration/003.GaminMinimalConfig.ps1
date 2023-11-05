@@ -19,6 +19,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "EnableAutoTray"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry VisualEffects {
             Ensure = "Present"
@@ -26,6 +27,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "VisualFXSetting"
             ValueData   = "2"
             ValueType = "Dword"
+            Force = $true
         }
         #Disable Enhanced Pointer Precision set 6/11
         Registry MouseSpeed {
@@ -62,6 +64,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "MouseWheelRouting"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         #Disable Touch Feedback
         Registry DisableMouseTouchFeedback1 {
@@ -70,6 +73,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "ContactVisualization"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableMouseTouchFeedback2 {
             Ensure = "Present"
@@ -77,6 +81,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "GestureVisualization"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableOnlineSpeechPrivacyandRecognition {
             Ensure = "Present"
@@ -84,6 +89,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "HasAccepted"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableCortanaTaskbar {
             Ensure = "Present"
@@ -91,6 +97,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "CortanaEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableCortanaBingWebSearch {
             Ensure = "Present"
@@ -98,6 +105,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "BingSearchEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DoNotGiveCortanaConsent {
             Ensure = "Present"
@@ -105,6 +113,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "CortanaConsent"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableAdvertisingInfo {
             Ensure = "Present"
@@ -112,6 +121,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "Enabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableInfoByLanguageList {
             Ensure = "Present"
@@ -119,6 +129,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "HttpAcceptLanguageOptOut"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableAppLaunchTracking {
             Ensure = "Present"
@@ -126,6 +137,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "Start_TrackProgs"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableSuggestedContent1 {
             Ensure = "Present"
@@ -133,6 +145,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "SubscribedContent-338393Enabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableSuggestedContent2 {
             Ensure = "Present"
@@ -140,6 +153,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "SubscribedContent-338394Enabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableSuggestedContent3 {
             Ensure = "Present"
@@ -147,6 +161,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "SubscribedContent-338396Enabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableInkingandPersonalization1 {
             Ensure = "Present"
@@ -154,6 +169,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "AcceptedPrivacyPolicy"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableInkingandPersonalization2 {
             Ensure = "Present"
@@ -161,6 +177,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "Enabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableInkingandPersonalization3 {
             Ensure = "Present"
@@ -168,6 +185,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "RestrictImplicitTextCollection"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableInkingandPersonalization4 {
             Ensure = "Present"
@@ -175,6 +193,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "RestrictImplicitInkCollection"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableInkingandPersonalization5 {
             Ensure = "Present"
@@ -182,6 +201,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "HarvestContacts"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DiagnosticsBasicUser1 {
             Ensure = "Present"
@@ -189,6 +209,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "ShowedToastAtLevel"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableTailoredExperiences {
             Ensure = "Present"
@@ -196,6 +217,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "TailoredExperiencesWithDiagnosticDataEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableFeedbackFrequency {
             Ensure = "Present"
@@ -203,6 +225,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "NumberOfSIUFInPeriod"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableAppsUsingCamera {
             Ensure = "Present"
@@ -231,6 +254,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "BackgroundAppGlobalToggle"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableBackgroundApps2 {
             Ensure = "Present"
@@ -238,6 +262,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "GlobalUserDisabled"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry ShowFileExtensions {
             Ensure = "Present"
@@ -245,6 +270,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "HideFileExt"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableNarrator1 {
             Ensure = "Present"
@@ -252,6 +278,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "narrator"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableNarrator2 {
             Ensure = "Present"
@@ -259,6 +286,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "RunningState"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableAutoCorrect {
             Ensure = "Present"
@@ -266,6 +294,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "EnableAutocorrection"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableSpellChecking {
             Ensure = "Present"
@@ -273,6 +302,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "EnableSpellchecking"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableTypePrediction {
             Ensure = "Present"
@@ -280,6 +310,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "EnableTextPrediction"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableSpaceInsertPrediction {
             Ensure = "Present"
@@ -287,6 +318,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "EnablePredictionSpaceInsertion"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableDoubleTapSpace {
             Ensure = "Present"
@@ -294,6 +326,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "EnableDoubleTapSpace"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableTypingInsights1 {
             Ensure = "Present"
@@ -301,6 +334,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "InsightsEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableTypingInsights2 {
             Ensure = "Present"
@@ -315,6 +349,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "EnableInkingWithTouch"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisablePenandInk {
             Ensure = "Present"
@@ -322,6 +357,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "PenWorkspaceAppSuggestionsEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableAutoPlay {
             Ensure = "Present"
@@ -329,6 +365,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "DisableAutoplay"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableGameBar {
             Ensure = "Present"
@@ -336,6 +373,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "GameDVR_Enabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableGameBarControllerShortcut {
             Ensure = "Present"
@@ -343,6 +381,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "UseNexusForGameBarEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableGamingAudioCaptures {
             Ensure = "Present"
@@ -350,6 +389,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "AudioCaptureEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableGamingHistoricalCaptures {
             Ensure = "Present"
@@ -357,6 +397,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "HistoricalCaptureEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableGamingCursorCaptures {
             Ensure = "Present"
@@ -364,6 +405,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "CursorCaptureEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableGamingBroadcasting1 {
             Ensure = "Present"
@@ -371,6 +413,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "AudioCaptureEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableGamingBroadcasting2 {
             Ensure = "Present"
@@ -378,6 +421,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "MicrophoneCaptureEnabledByDefault"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableGamingBroadcasting3 {
             Ensure = "Present"
@@ -385,6 +429,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "CursorCaptureEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableGamingBroadcasting4 {
             Ensure = "Present"
@@ -392,6 +437,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "CameraCaptureEnabledByDefault"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableGamingMode {
             Ensure = "Present"
@@ -399,6 +445,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "AutoGameModeEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableSigninOptionReopenApps {
             Ensure = "Present"
@@ -406,6 +453,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "OptOut"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableLoginBackgroundImageonLockScreen {
             Ensure = "Present"
@@ -413,6 +461,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "HideLogonBackgroundImage"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableOneDriveStartUp {
             Ensure = "Present"
@@ -427,6 +476,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "EnableTransparency"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableShowPeopleOnTaskbar {
             Ensure = "Present"
@@ -434,6 +484,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "PeopleBand"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableAutoDetectProxy {
             Ensure = "Present"
@@ -441,6 +492,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "ProxyEnable"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableShareAcrossDevices1 {
             Ensure = "Present"
@@ -448,6 +500,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "RomeSdkChannelUserAuthzPolicy"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableShareAcrossDevices2 {
             Ensure = "Present"
@@ -455,6 +508,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "CdpSessionUserAuthzPolicy"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableLockScreenNotifications1 {
             Ensure = "Present"
@@ -462,6 +516,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "LockScreenToastEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableLockScreenNotifications2 {
             Ensure = "Present"
@@ -469,6 +524,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "NOC_GLOBAL_SETTING_ALLOW_TOASTS_ABOVE_LOCK"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableLockScreenNotifications3 {
             Ensure = "Present"
@@ -476,6 +532,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "NOC_GLOBAL_SETTING_ALLOW_CRITICAL_TOASTS_ABOVE_LOCK"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableToastNotifications {
             Ensure = "Present"
@@ -483,6 +540,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "ToastEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry EnforceDesktopModeNotTablet1 {
             Ensure = "Present"
@@ -490,6 +548,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "SignInMode"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry EnforceDesktopModeNotTablet2 {
             Ensure = "Present"
@@ -497,6 +556,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "ConvertibleSlateModePromptPreference"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableMultitaskingSnap {
             Ensure = "Present"
@@ -725,6 +785,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "EnableMulticast"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableLockScreenApp {
             Ensure = "Present"
@@ -732,6 +793,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "NoLockScreen"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisablePowerThrottleFeature {
             Ensure = "Present"
@@ -739,6 +801,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "PowerThrottlingOff"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableAutomaticDeviceMetaDataDownload {
             Ensure = "Present"
@@ -746,6 +809,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "PreventDeviceMetadataFromNetwork"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableAutomaticUpdates {
             Ensure = "Present"
@@ -753,6 +817,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "NoAutoUpdate"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableStoreAutomaticUpdates {
             Ensure = "Present"
@@ -760,6 +825,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "AutoDownload"
             ValueData   = "2"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableCortanaSearch {
             Ensure = "Present"
@@ -767,6 +833,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "AllowCortana"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableCortanaWebSearch {
             Ensure = "Present"
@@ -774,6 +841,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "DisableWebSearch"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DiagnosticsBasic1 {
             Ensure = "Present"
@@ -781,6 +849,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "AllowTelemetry"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DiagnosticsBasic2 {
             Ensure = "Present"
@@ -788,6 +857,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "MaxTelemetryAllowed"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DiagnosticsBasic3 {
             Ensure = "Present"
@@ -795,6 +865,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "UploadPermissionReceived"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DiagnosticsBasic4 {
             Ensure = "Present"
@@ -802,6 +873,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "DiagTrackAuthorization"
             ValueData   = "775"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DiagnosticsBasic5 {
             Ensure = "Present"
@@ -809,6 +881,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "DiagTrackStatus"
             ValueData   = "2"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DiagnosticsBasic6 {
             Ensure = "Present"
@@ -816,6 +889,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "miniTraceSlotEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DiagnosticsBasic7 {
             Ensure = "Present"
@@ -823,6 +897,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "miniTraceSlotContentPermitted"
             ValueData   = "1"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableActivityPublishing {
             Ensure = "Present"
@@ -830,6 +905,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "PublishUserActivities"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableActivityUpload {
             Ensure = "Present"
@@ -837,6 +913,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "UploadUserActivities"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableAppNotificationsAccess {
             Ensure = "Present"
@@ -949,6 +1026,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "DownloadMode"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableDeliveryOptDownloadOtherPCs2 {
             Ensure = "Present"
@@ -956,6 +1034,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "DownloadModeProvider"
             ValueData   = "8"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableFindMyDevice {
             Ensure = "Present"
@@ -963,20 +1042,23 @@ Configuration GamingMinimalConfig {
             ValueName   = "LocationSyncEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
-        Registry PreferIPv4overIPv6 {
-            Ensure = "Present"
-            Key = "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters"
-            ValueName   = "DisabledComponents"
-            ValueData   = "32"
-            ValueType = "Dword"
-        }
+        # Registry PreferIPv4overIPv6 {
+        #     Ensure = "Present"
+        #     Key = "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters"
+        #     ValueName   = "DisabledComponents"
+        #     ValueData   = "32"
+        #     ValueType = "Dword"
+        #     Force = $true
+        # }
         # Registry DisableRemoteAssistance {
         #     Ensure = "Present"
         #     Key = "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Remote Assistance"
         #     ValueName   = "fAllowToGetHelp"
         #     ValueData   = "0"
         #     ValueType = "Dword"
+        #     Force = $true
         # }
         Registry DisableCloudSearch {
             Ensure = "Present"
@@ -984,6 +1066,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "AllowCloudSearch"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableFastBoot {
             Ensure = "Present"
@@ -991,6 +1074,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "HiberbootEnabled"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableShowSleep {
             Ensure = "Present"
@@ -998,6 +1082,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "ShowSleepOption"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableShowHibernate {
             Ensure = "Present"
@@ -1005,6 +1090,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "ShowHibernateOption"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry EnableHighPerfPowerScheme {
             Ensure = "Present"
@@ -1019,6 +1105,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "ACSettingIndex"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableDefenderAutomaticSampleSubmit {
             Ensure = "Present"
@@ -1026,6 +1113,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "SubmitSamplesConsent"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         Registry DisableGameDVR {
             Ensure = "Present"
@@ -1033,6 +1121,7 @@ Configuration GamingMinimalConfig {
             ValueName   = "AllowgameDVR"
             ValueData   = "0"
             ValueType = "Dword"
+            Force = $true
         }
         #WindowsOptionalFeature PrinttoPDF {
         #    Name = "Printing-PrintToPDFServices-Features"

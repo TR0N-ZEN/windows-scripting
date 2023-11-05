@@ -3,7 +3,7 @@ $features_to_disable =
     'LegacyComponents',
     'DirectPlay',
     'SimpleTCP',
-    'Windows-Identity-Foundation',
+    # 'Windows-Identity-Foundation',
     'WCF-HTTP-Activation',
     'WCF-NonHTTP-Activation',
     'IIS-WebServerRole',
@@ -118,7 +118,7 @@ $features_to_disable =
     'SMB1Protocol-Server';
 
 foreach ($feature in $features_to_disable) {
-    Disable-WindowsOptionalFeature -Online -FeatureName $feature
+    Disable-WindowsOptionalFeature -Online -Remove -NoRestart -FeatureName $feature
 }
 
 Get-WindowsOptionalFeature -Online |
