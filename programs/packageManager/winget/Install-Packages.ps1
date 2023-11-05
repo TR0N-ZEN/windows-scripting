@@ -14,7 +14,15 @@ $basics =
 '9PMK584KQVC2',
 'OpenVPNTechnologies.OpenVPN',
 # spotify from msstore
-'9NCBCSZSJRSB'
+'9NCBCSZSJRSB',
+# web media extension
+'9N5TDP8VCMHS',
+# VP9 Video Extensions
+'9N4D0MSMP0PT',
+# HEIF Image Extensions
+'9PMMSR1CGPWG'
+
+
 
 $dev =
 'Git.Git',
