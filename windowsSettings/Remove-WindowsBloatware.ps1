@@ -2,6 +2,7 @@
 # + https://www.tenforums.com/tutorials/4689-uninstall-apps-windows-10-a.html
 # + https://www.howtogeek.com/224798/how-to-uninstall-windows-10s-built-in-apps-and-how-to-reinstall-them/
 
+# Remove bloat programs with Remove-AppXPackage and winget
 
 filter NameIn {
   $b = $false;
@@ -37,13 +38,15 @@ $blacklist = 'advert',
   'xing',
   'zune',
   'OneNote';
-$whitelist = 'Whatsapp',
+$whitelist =
+  'Whatsapp',
   'Spotify',
   'Canon',
   'Synaptic',
   'Debian',
   'Norton',
-  'Symantec';
+  'Symantec',
+  'Xbox';
 
 # safe
 Get-AppXPackage -allusers | NameIn $blacklist | Remove-AppXPackage;
@@ -66,25 +69,29 @@ Get-AppXPackage -allusers | NameIn $blacklist | Remove-AppXPackage;
 
 $winget_blacklist = @(
   '3D Viewer',
+  'Clipchamp',
   'Cortana', 
   'Feedback Hub',
   'Groove Music',
+  'Mail and Calendar',
+  'Microsoft Family',
   'Microsoft Pay',
   'Microsoft People',
   'Microsoft Solitaire Collection',
+  'Microsoft Teams',
+  'Microsoft To Do',
   'Mixed Reality Portal',
   'Movies & TV',
   'MSN Weather',
+  'OneDrive',
   'OneNote for Windows 10',
   'Paint 3D',
   'Phone Link',
+  'Quick Assist',
   'Skype',
   'Windows Alarms & Clock',
   'Windows Camera',
   'Windows Maps'
 )
 
-foreach ($item in $winget_blacklist)
-{
-  winget uninstall $item
-}
+foreach ($item in $winget_blacklist) { winget uninstall $item }
