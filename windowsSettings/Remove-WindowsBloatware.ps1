@@ -37,20 +37,13 @@ $blacklist = 'advert',
   'xing',
   'zune',
   'OneNote';
-$whitelist = 'Okular',
-  'Whatsapp',
+$whitelist = 'Whatsapp',
   'Spotify',
-  'Word',
-  'Excel',
-  'PowerPoint',
-  'Netflix',
   'Canon',
   'Synaptic',
   'Debian',
-  'Amazon',
   'Norton',
-  'Symantec',
-  'Teams';
+  'Symantec';
 
 # safe
 Get-AppXPackage -allusers | NameIn $blacklist | Remove-AppXPackage;
@@ -71,7 +64,7 @@ Get-AppXPackage -allusers | NameIn $blacklist | Remove-AppXPackage;
 
 ##################################################################################################################################
 
-$winget_whitelist = @(
+$winget_blacklist = @(
   '3D Viewer',
   'Cortana', 
   'Feedback Hub',
@@ -91,7 +84,7 @@ $winget_whitelist = @(
   'Windows Maps'
 )
 
-foreach ($item in $winget_whitelist)
+foreach ($item in $winget_blacklist)
 {
   winget uninstall $item
 }

@@ -12,4 +12,4 @@ Console porgram REG for itneraction with the reigstry.
 
 Intersting entries:
 + REG QUERY HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment /v Path
-
++ Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\ExcludeWUDriversInQualityUpdate (DWORD 32 Bit set to 1)
